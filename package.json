@@ -1,0 +1,33 @@
+{
+  "name": "ma-committee-map",
+  "version": "2021.5.0",
+  "description": "Proof-of-concept for showing legislative committee membership on a map.",
+  "author": "Brian H. Rutledge",
+  "license": "CC0-1.0",
+  "main": "index.js",
+  "devDependencies": {
+    "browser-sync": "^2.26.14",
+    "eslint": "^7.18.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-compat": "^3.9.0",
+    "eslint-plugin-html": "^6.1.1",
+    "eslint-plugin-import": "^2.22.1"
+  },
+  "scripts": {
+    "start": "browser-sync --watch --no-open",
+    "lint": "eslint index.html",
+    "format": "npm run lint -- --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhrutledge/ma-committee-map.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bhrutledge/ma-committee-map/issues"
+  },
+  "homepage": "https://github.com/bhrutledge/ma-committee-map#readme",
+  "browserslist": [
+    "defaults and > 0.5% in US",
+    "not IE 11"
+  ]
+}

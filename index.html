@@ -1,0 +1,290 @@
+<html>
+
+<head>
+  <title>Massachusetts Legislative Committee Members</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <base target="_blank">
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+    crossorigin="" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet-search@2.9.9/dist/leaflet-search.min.css" />
+
+  <style>
+    :root {
+      --color--district: rgba(0, 0, 0, 0.2);
+      --color--district--active: rgba(0, 0, 0, 0.4);
+      --color--Democrat: rgba(0, 0, 255, 0.5);
+      --color--Democrat--active: rgba(0, 0, 255, 0.9);
+      --color--Republican: rgba(255, 0, 0, 0.5);
+      --color--Republican--active: rgba(255, 0, 0, 0.9);
+    }
+
+    body {
+      margin: 0;
+      /* Matching .leaflet-container */
+      background: #ddd;
+    }
+
+    #map:not(.leaflet-container)::after {
+      content: '…loading map…';
+      display: block;
+      padding: 1rem;
+      text-align: center;
+      /* Matching .leaflet-container */
+      font: oblique 12px/1.5 "Helvetica Neue", Arial, Helvetica, sans-serif;
+    }
+
+    a {
+      color: #00529A !important;
+    }
+
+    .legend {
+      background: white;
+      border: 2px solid rgba(0, 0, 0, 0.2);
+      border-radius: 4px;
+      padding: 0 0.5rem;
+    }
+
+    .legend__item {
+      display: flex;
+      align-items: center;
+      margin: 0.5rem 0;
+    }
+
+    .legend__item::before {
+      background: var(--color--district);
+      border-radius: 2px;
+      content: '';
+      display: block;
+      margin-right: 0.5rem;
+      height: 1rem;
+      width: 1rem;
+    }
+
+    .legend__item--Democrat::before {
+      background: var(--color--Democrat);
+    }
+
+    .legend__item--Republican::before {
+      background: var(--color--Republican);
+    }
+
+    .district {
+      fill: var(--color--district);
+      fill-opacity: 1;
+      stroke: var(--color--district);
+      stroke-width: 1;
+    }
+
+    .district:hover {
+      stroke-width: 4;
+    }
+
+    .district--active {
+      fill: var(--color--district--active);
+    }
+
+    .district--Democrat {
+      fill: var(--color--Democrat);
+    }
+
+    .district--Democrat.district--active {
+      fill: var(--color--Democrat--active);
+    }
+
+    .district--Republican {
+      fill: var(--color--Republican);
+    }
+
+    .district--Republican.district--active {
+      fill: var(--color--Republican--active);
+    }
+
+    .leaflet-control-search .search-input {
+      outline: none;
+      width: 15rem;
+    }
+
+    .leaflet-control-search .search-tooltip {
+      margin: 2px 0 0;
+      width: 100%;
+      border-radius: 4px;
+    }
+
+    .leaflet-control-search .search-tip {
+      margin: 0;
+      border-radius: 0;
+    }
+
+    table {
+      border-collapse: collapse;
+      border-spacing: 0;
+      font: inherit;
+      width: 100%;
+    }
+
+    th,
+    td {
+      text-align: left;
+      vertical-align: baseline;
+      white-space: nowrap;
+    }
+  </style>
+</head>
+
+<body>
+  <!--
+    Center the map with a constrained width and a responsive 64% aspect ratio (same as Massachusetts)
+    https://css-tricks.com/aspect-ratio-boxes/
+    Temporarily(?) using `style` attribute to keep page layout separate from map styling in <style>
+  -->
+  <div style="max-width: 800px; margin: 0 auto;">
+    <div style="position: relative; overflow: hidden; padding-top: 64%;">
+      <div id="map" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></div>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+    crossorigin=""></script>
+  <script src="https://unpkg.com/leaflet-providers@1.11.0/leaflet-providers.js"></script>
+  <script src="https://unpkg.com/leaflet-search@2.9.9/dist/leaflet-search.min.js"></script>
+
+  <script>
+    /* global L */
+
+    /* Load the legislative district boundaries and rep data */
+
+    Promise.all([
+      /* The GeoJSON contains basic contact information for each rep */
+      fetch('https://raw.githubusercontent.com/bhrutledge/ma-legislature/main/dist/ma_house.geojson')
+        .then((response) => response.json()),
+      fetch('https://raw.githubusercontent.com/bhrutledge/ma-legislature/main/dist/ma_senate.geojson')
+        .then((response) => response.json()),
+      /**
+       * To add additional data about each rep/district, uncomment this `fetch`
+       * and set the URL to a JSON data source with a `district` field.
+       *
+       * For a CSV, use https://www.papaparse.com/; see an example at:
+       * https://github.com/actonmass/campaign-map/blob/main/index.html
+       */
+      // fetch('https://example.com/rep_data.json').then((response) => response.json()),
+    ])
+      .then(([houseFeatures, senateFeatures, repData = []]) => {
+        /* Build a rep info object, e.g. `rep.first_name`, `rep.extra_data` */
+
+        const repDataByDistrict = repData.reduce((acc, cur) => {
+          acc[cur.district] = cur;
+          return acc;
+        }, {});
+
+        const repProperties = (feature) => {
+          const data = repDataByDistrict[feature.properties.district] || {};
+          return { ...feature.properties, ...data };
+        };
+
+        /* Templates for map elements */
+
+        const districtLegend = () => /* html */`
+          <div class="legend__item legend__item--Democrat">
+            Democrat
+          </div>
+          <div class="legend__item legend__item--Republican">
+            Republican
+          </div>
+          <div class="legend__item legend__item">
+            Other
+          </div>
+        `;
+
+        const districtStyle = (rep) => ({
+          className: `district district--${rep.party}`,
+        });
+
+        const districtPopup = (rep) => /* html */`
+          <p>
+            <strong>${rep.first_name} ${rep.last_name}</strong>
+            ${rep.party ? `<br />${rep.party}` : ''}
+            <br />${rep.district}
+            ${rep.url ? `<br /><a href="${rep.url}">Contact</a>` : ''}
+          </p>
+        `;
+
+        const onPopup = (e) => {
+          const active = e.type === 'popupopen';
+          e.target.getElement().classList.toggle('district--active', active);
+        };
+
+        /* Build the district layers */
+
+        const districtLayer = (features) => L.geoJson(features, {
+          style: (feature) => districtStyle(repProperties(feature)),
+          onEachFeature: (feature, layer) => {
+            const rep = repProperties(feature);
+
+            layer.bindPopup(districtPopup(rep));
+            layer.on('popupopen', onPopup);
+            layer.on('popupclose', onPopup);
+
+            // Enable searching by name or district; inspired by:
+            // https://github.com/stefanocudini/leaflet-search/issues/52#issuecomment-266168224
+            // eslint-disable-next-line no-param-reassign
+            feature.properties.index = `${rep.first_name} ${rep.last_name} - ${rep.district}`;
+          },
+        });
+
+        const districtSearch = (layer) => new L.Control.Search({
+          layer,
+          propertyName: 'index',
+          initial: false,
+          marker: false,
+          textPlaceholder: 'Search legislators and districts',
+          moveToLocation(latlng, title, map) {
+            map.fitBounds(latlng.layer.getBounds());
+            latlng.layer.openPopup();
+          },
+        });
+
+        const layers = {
+          House: districtLayer(houseFeatures),
+          Senate: districtLayer(senateFeatures),
+        };
+
+        const searchControls = {
+          House: districtSearch(layers.House),
+          Senate: districtSearch(layers.Senate),
+        };
+
+        /* Build the map */
+
+        const map = L.map('map').addLayer(L.tileLayer.provider('CartoDB.Positron'));
+
+        Object.keys(layers).forEach((chamber) => {
+          layers[chamber]
+            .on('add', () => searchControls[chamber].addTo(map))
+            .on('remove', () => searchControls[chamber].remove());
+        });
+
+        map.addLayer(layers.House)
+          .fitBounds(layers.House.getBounds())
+          // Avoid accidental excessive zoom out
+          .setMinZoom(map.getZoom());
+
+        const layerControl = L.control.layers(layers, {}, {
+          collapsed: false,
+        });
+        layerControl.addTo(map);
+
+        const legendControl = L.control({ position: 'topright' });
+        legendControl.onAdd = () => {
+          const div = L.DomUtil.create('div', 'legend');
+          div.innerHTML = districtLegend();
+          return div;
+        };
+        legendControl.addTo(map);
+      });
+  </script>
+</body>
+
+</html>
