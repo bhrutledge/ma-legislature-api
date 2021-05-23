@@ -190,10 +190,16 @@
           committeeUrls.add(`https://malegislature.gov/Legislators/Profile/${member.MemberCode}`)
         });
 
+        const sponsorUrls = new Set();
+        billData.Cosponsors.forEach((sponsor) => {
+          sponsorUrls.add(`https://malegislature.gov/Legislators/Profile/${sponsor.Id}`)
+        });
+
         const repProperties = (feature) => {
           return {
             ...feature.properties,
-            member: committeeUrls.has(feature.properties.url)
+            member: committeeUrls.has(feature.properties.url),
+            sponsor: sponsorUrls.has(feature.properties.url)
           };
         };
 
@@ -212,7 +218,11 @@
         `);
 
         const districtStyle = (rep) => ({
-          className: 'district ' + (rep.member ? `district--${rep.party}` : '')
+          className: `
+            district district--${rep.party}
+            ${rep.sponsor ? 'district--sponsor' : ''}
+            ${rep.member ? 'district--member' : ''}
+          `
         });
 
         const districtPopup = (rep) => DOMPurify.sanitize(/* html */`
@@ -235,7 +245,6 @@
           style: (feature) => districtStyle(repProperties(feature)),
           onEachFeature: (feature, layer) => {
             const rep = repProperties(feature);
-            if (!rep.member) return;
 
             layer.bindPopup(districtPopup(rep));
             layer.on('popupopen', onPopup);
