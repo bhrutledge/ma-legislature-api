@@ -152,13 +152,11 @@
     Temporarily(?) using `style` attribute to keep page layout separate from map styling in <style>
   -->
   <div style="max-width: 800px; margin: 0 auto;">
-    <h1 id="title"></h1>
+    <h1 id="bill-title"></h1>
+    <h2 id="committee-title"></h2>
 
     <div style="position: relative; overflow: hidden; padding-top: 64%;">
       <div id="map" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></div>
-    </div>
-
-    <div id="bills">
     </div>
   </div>
 
@@ -169,10 +167,10 @@
   <script src="https://unpkg.com/leaflet-search@2.9.9/dist/leaflet-search.min.js"></script>
   <script src="https://unpkg.com/dompurify@2.2.8/dist/purify.min.js"></script>
 
-<script>
+  <script>
     /* global L */
 
-    /* Load the legislative district boundaries and rep data */
+    /* Load the legislative district boundaries and bill data */
 
     Promise.all([
       /* The GeoJSON contains basic contact information for each rep */
@@ -180,20 +178,23 @@
         .then((response) => response.json()),
       fetch('https://raw.githubusercontent.com/bhrutledge/ma-legislature/main/dist/ma_senate.geojson')
         .then((response) => response.json()),
-      fetch('dist/ma_joint_committee_on_the_judiciary.json')
+      fetch('dist/ma_bill_192_H805.json')
         .then((response) => response.json()),
     ])
-      .then(([houseFeatures, senateFeatures, committeeData = []]) => {
+      .then(([houseFeatures, senateFeatures, billData]) => {
         /* Build a rep info object, e.g. `rep.first_name`, `rep.extra_data` */
 
         const committeeUrls = new Set();
-        const committeeMembers = [...committeeData.HouseMembers, ...committeeData.SenateMembers];
-        committeeMembers.forEach((member) => {
+        const committeeData = billData.BeforeCommittee;
+        [...committeeData.HouseMembers, ...committeeData.SenateMembers].forEach((member) => {
           committeeUrls.add(`https://malegislature.gov/Legislators/Profile/${member.MemberCode}`)
         });
 
         const repProperties = (feature) => {
-          return { ...feature.properties, member: committeeUrls.has(feature.properties.url) };
+          return {
+            ...feature.properties,
+            member: committeeUrls.has(feature.properties.url)
+          };
         };
 
         /* Templates for map elements */
@@ -272,6 +273,7 @@
         /* Build the map */
 
         const map = L.map('map').addLayer(L.tileLayer.provider('CartoDB.Positron'));
+        const billChamber = billData['BillNumber'].startsWith('S') ? 'Senate': 'House';
 
         Object.keys(layers).forEach((chamber) => {
           layers[chamber]
@@ -279,8 +281,8 @@
             .on('remove', () => searchControls[chamber].remove());
         });
 
-        map.addLayer(layers.House)
-          .fitBounds(layers.House.getBounds())
+        map.addLayer(layers[billChamber])
+          .fitBounds(layers[billChamber].getBounds())
           // Avoid accidental excessive zoom out
           .setMinZoom(map.getZoom());
 
@@ -299,26 +301,11 @@
 
         /* Build the text content */
 
-        document.getElementById('title').textContent = committeeData['FullName'];
+        const title = `${billData['BillNumber']}: ${billData['Title']}`;
 
-        const billList = (bills, title) => DOMPurify.sanitize(/* html */ `
-          <details>
-            <summary>${title}: ${bills.length}</summary>
-            <ul>
-              ${bills.map((bill) => /* html */`
-                <li>
-                  <a href="https://malegislature.gov/Bills/${bill.GeneralCourtNumber}/${bill.BillNumber}">${bill.BillNumber}</a>:
-                  ${bill.Title}
-                </li>
-              `).join('')}
-            </ul>
-          </details>
-        `);
-
-        document.getElementById('bills').insertAdjacentHTML('beforeend',
-          billList(committeeData.DocumentsBeforeCommittee, "Bills before the committee") +
-          billList(committeeData.ReportedOutDocuments, "Bills reported out")
-        );
+        document.getElementsByTagName('title')[0].textContent = title;
+        document.getElementById('bill-title').textContent = title;
+        document.getElementById('committee-title').textContent = `Before the ${committeeData['FullName']}`;
       });
   </script>
 </body>
