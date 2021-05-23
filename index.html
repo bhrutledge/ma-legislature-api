@@ -85,7 +85,8 @@
       fill: var(--color--district--active);
     }
 
-    .district--Unenrolled {
+    .highlight-sponsors .district--sponsor.district--Unenrolled,
+    .highlight-committee .district--committee.district--Unenrolled {
       fill: var(--color--Unenrolled);
     }
 
@@ -93,7 +94,8 @@
       fill: var(--color--Unenrolled--active);
     }
 
-    .district--Democrat {
+    .highlight-sponsors .district--sponsor.district--Democrat,
+    .highlight-committee .district--committee.district--Democrat {
       fill: var(--color--Democrat);
     }
 
@@ -101,7 +103,8 @@
       fill: var(--color--Democrat--active);
     }
 
-    .district--Republican {
+    .highlight-sponsors .district--sponsor.district--Republican,
+    .highlight-committee .district--committee.district--Republican {
       fill: var(--color--Republican);
     }
 
@@ -152,8 +155,19 @@
     Temporarily(?) using `style` attribute to keep page layout separate from map styling in <style>
   -->
   <div style="max-width: 800px; margin: 0 auto;">
-    <h1 id="bill-title"></h1>
-    <h2 id="committee-title"></h2>
+    <h1>VOTES Act</h1>
+    <p>
+      Highlight:
+      <label>
+        <input type="radio" name="highlight" value="highlight-sponsors" checked />Cosponsors
+      </label>
+      <label>
+        <input type="radio" name="highlight" value="highlight-committee" />Committee members
+      </label>
+    </p>
+
+    <h2 id="bill-title"></h1>
+    <h3 id="committee-title"></h2>
 
     <div style="position: relative; overflow: hidden; padding-top: 64%;">
       <div id="map" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></div>
@@ -198,7 +212,7 @@
         const repProperties = (feature) => {
           return {
             ...feature.properties,
-            member: committeeUrls.has(feature.properties.url),
+            committee: committeeUrls.has(feature.properties.url),
             sponsor: sponsorUrls.has(feature.properties.url)
           };
         };
@@ -221,7 +235,7 @@
           className: `
             district district--${rep.party}
             ${rep.sponsor ? 'district--sponsor' : ''}
-            ${rep.member ? 'district--member' : ''}
+            ${rep.committee ? 'district--committee' : ''}
           `
         });
 
@@ -307,7 +321,7 @@
           return div;
         };
         legendControl.addTo(map);
-
+        
         /* Build the text content */
 
         const title = `${billData['BillNumber']}: ${billData['Title']}`;
@@ -315,6 +329,21 @@
         document.getElementsByTagName('title')[0].textContent = title;
         document.getElementById('bill-title').textContent = title;
         document.getElementById('committee-title').textContent = `Before the ${committeeData['FullName']}`;
+
+        /* Toggle the highlight */
+
+        document.querySelectorAll('input[name="highlight"]').forEach((elem) => {
+          elem.addEventListener('change', (event) => {
+            const currentHighlights = Array.from(document.body.classList)
+              .filter((c) => c.startsWith('highlight'));
+
+            document.body.classList.remove(...currentHighlights);
+            document.body.classList.add(event.target.value);
+          });
+        });
+
+        const defaultHighlight = document.querySelector('input[name="highlight"]:checked').value;
+        document.body.classList.add(defaultHighlight);
       });
   </script>
 </body>
