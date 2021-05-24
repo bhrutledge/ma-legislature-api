@@ -175,7 +175,7 @@
   <div id="container">
     <h1>VOTES Act</h1>
     <p>
-      Highlight:
+      <strong>Highlight:</strong>
       <label>
         <input type="radio" name="highlight" value="highlight-sponsors" checked />Cosponsors
       </label>
@@ -205,23 +205,28 @@
         .then((response) => response.json()),
       fetch('dist/ma_bill_192_H805.json')
         .then((response) => response.json()),
-    ])
-      .then(([houseFeatures, senateFeatures, billData]) => {
-        /* Toggle the map highlight */
+      fetch('dist/ma_bill_192_S459.json')
+        .then((response) => response.json()),
+    ]).then(([houseFeatures, senateFeatures, ...allBillData]) => {
 
-        document.querySelectorAll('input[name="highlight"]').forEach((input) => {
-          input.addEventListener('change', (event) => {
-            const currentHighlights = Array.from(document.body.classList)
-              .filter((c) => c.startsWith('highlight'));
+      /* Toggle the map highlight */
 
-            document.body.classList.remove(...currentHighlights);
-            document.body.classList.add(event.target.value);
-          });
+      document.querySelectorAll('input[name="highlight"]').forEach((input) => {
+        input.addEventListener('change', (event) => {
+          const currentHighlights = Array.from(document.body.classList)
+            .filter((c) => c.startsWith('highlight'));
+
+          document.body.classList.remove(...currentHighlights);
+          document.body.classList.add(event.target.value);
         });
+      });
 
-        const checkedHiglight = document.querySelector('input[name="highlight"]:checked');
-        document.body.classList.add(checkedHiglight.value);
+      const checkedHiglight = document.querySelector('input[name="highlight"]:checked');
+      document.body.classList.add(checkedHiglight.value);
 
+      /* Build a map for each bill */
+
+      allBillData.forEach((billData) => {
         /* Build a rep info object, e.g. `rep.first_name`, `rep.party`, etc. */
 
         const committeeData = billData.BeforeCommittee;
@@ -362,6 +367,7 @@
         };
         legendControl.addTo(map);
       });
+    });
   </script>
 </body>
 
