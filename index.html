@@ -1,7 +1,7 @@
 <html>
 
 <head>
-  <title>Massachusetts Legislative Committee Members</title>
+  <title>Massachusetts Bill Details</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <base target="_blank">
 
@@ -183,13 +183,6 @@
         <input type="radio" name="highlight" value="highlight-committee" />Committee members
       </label>
     </p>
-
-    <h2 id="bill-title"></h1>
-    <h3 id="committee-title"></h2>
-
-    <div class="map-container">
-      <div id="map" class="map"></div>
-    </div>
   </div>
 
   <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
@@ -200,7 +193,7 @@
   <script src="https://unpkg.com/dompurify@2.2.8/dist/purify.min.js"></script>
 
   <script>
-    /* global L */
+    /* global L, DOMPurify */
 
     /* Load the legislative district boundaries and bill data */
 
@@ -214,10 +207,26 @@
         .then((response) => response.json()),
     ])
       .then(([houseFeatures, senateFeatures, billData]) => {
-        /* Build a rep info object, e.g. `rep.first_name`, `rep.extra_data` */
+        /* Toggle the map highlight */
+
+        document.querySelectorAll('input[name="highlight"]').forEach((input) => {
+          input.addEventListener('change', (event) => {
+            const currentHighlights = Array.from(document.body.classList)
+              .filter((c) => c.startsWith('highlight'));
+
+            document.body.classList.remove(...currentHighlights);
+            document.body.classList.add(event.target.value);
+          });
+        });
+
+        const checkedHiglight = document.querySelector('input[name="highlight"]:checked');
+        document.body.classList.add(checkedHiglight.value);
+
+        /* Build a rep info object, e.g. `rep.first_name`, `rep.party`, etc. */
+
+        const committeeData = billData.BeforeCommittee;
 
         const committeeUrls = new Set();
-        const committeeData = billData.BeforeCommittee;
         [...committeeData.HouseMembers, ...committeeData.SenateMembers].forEach((member) => {
           committeeUrls.add(`https://malegislature.gov/Legislators/Profile/${member.MemberCode}`)
         });
@@ -266,9 +275,9 @@
           </p>
         `);
 
-        const onPopup = (e) => {
-          const active = e.type === 'popupopen';
-          e.target.getElement().classList.toggle('district--active', active);
+        const onPopup = (event) => {
+          const active = event.type === 'popupopen';
+          event.target.getElement().classList.toggle('district--active', active);
         };
 
         /* Build the district layers */
@@ -313,15 +322,27 @@
 
         /* Build the map */
 
-        const map = L.map('map').addLayer(L.tileLayer.provider('CartoDB.Positron'));
-        const billChamber = billData['BillNumber'].startsWith('S') ? 'Senate': 'House';
+        document.getElementById('container').insertAdjacentHTML(
+          'beforeend', 
+          DOMPurify.sanitize(/* html */`
+            <h2>${`${billData['BillNumber']}: ${billData['Title']}`}</h2>
+            <h3>Before the ${committeeData['FullName']}</h3>
+            <div class="map-container">
+              <div class="map"></div>
+            </div>
+          `)
+        );
 
+        const mapDiv = document.querySelector(".map-container:last-child .map");
+        const map = L.map(mapDiv).addLayer(L.tileLayer.provider('CartoDB.Positron'));
+        
         Object.keys(layers).forEach((chamber) => {
           layers[chamber]
-            .on('add', () => searchControls[chamber].addTo(map))
-            .on('remove', () => searchControls[chamber].remove());
+          .on('add', () => searchControls[chamber].addTo(map))
+          .on('remove', () => searchControls[chamber].remove());
         });
-
+        
+        const billChamber = billData['BillNumber'].startsWith('S') ? 'Senate': 'House';
         map.addLayer(layers[billChamber])
           .fitBounds(layers[billChamber].getBounds())
           // Avoid accidental excessive zoom out
@@ -334,34 +355,12 @@
 
         const legendControl = L.control({ position: 'bottomleft' });
         legendControl.onAdd = () => {
-          const div = L.DomUtil.create('div', 'legend');
+          const div = document.createElement('div');
+          div.classList = 'legend';
           div.innerHTML = districtLegend();
           return div;
         };
         legendControl.addTo(map);
-        
-        /* Build the text content */
-
-        const title = `${billData['BillNumber']}: ${billData['Title']}`;
-
-        document.getElementsByTagName('title')[0].textContent = title;
-        document.getElementById('bill-title').textContent = title;
-        document.getElementById('committee-title').textContent = `Before the ${committeeData['FullName']}`;
-
-        /* Toggle the highlight */
-
-        document.querySelectorAll('input[name="highlight"]').forEach((elem) => {
-          elem.addEventListener('change', (event) => {
-            const currentHighlights = Array.from(document.body.classList)
-              .filter((c) => c.startsWith('highlight'));
-
-            document.body.classList.remove(...currentHighlights);
-            document.body.classList.add(event.target.value);
-          });
-        });
-
-        const defaultHighlight = document.querySelector('input[name="highlight"]:checked').value;
-        document.body.classList.add(defaultHighlight);
       });
   </script>
 </body>
