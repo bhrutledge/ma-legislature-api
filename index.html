@@ -208,7 +208,6 @@
       fetch('dist/ma_bill_192_S459.json')
         .then((response) => response.json()),
     ]).then(([houseFeatures, senateFeatures, ...allBillData]) => {
-
       /* Toggle the map highlight */
 
       document.querySelectorAll('input[name="highlight"]').forEach((input) => {
@@ -233,21 +232,19 @@
 
         const committeeUrls = new Set();
         [...committeeData.HouseMembers, ...committeeData.SenateMembers].forEach((member) => {
-          committeeUrls.add(`https://malegislature.gov/Legislators/Profile/${member.MemberCode}`)
+          committeeUrls.add(`https://malegislature.gov/Legislators/Profile/${member.MemberCode}`);
         });
 
         const sponsorUrls = new Set();
         billData.Cosponsors.forEach((sponsor) => {
-          sponsorUrls.add(`https://malegislature.gov/Legislators/Profile/${sponsor.Id}`)
+          sponsorUrls.add(`https://malegislature.gov/Legislators/Profile/${sponsor.Id}`);
         });
 
-        const repProperties = (feature) => {
-          return {
-            ...feature.properties,
-            committee: committeeUrls.has(feature.properties.url),
-            sponsor: sponsorUrls.has(feature.properties.url)
-          };
-        };
+        const repProperties = (feature) => ({
+          ...feature.properties,
+          committee: committeeUrls.has(feature.properties.url),
+          sponsor: sponsorUrls.has(feature.properties.url),
+        });
 
         /* Templates for map elements */
 
@@ -268,7 +265,7 @@
             district district--${rep.party}
             ${rep.sponsor ? 'district--sponsor' : ''}
             ${rep.committee ? 'district--committee' : ''}
-          `
+          `,
         });
 
         const districtPopup = (rep) => DOMPurify.sanitize(/* html */`
@@ -328,26 +325,26 @@
         /* Build the map */
 
         document.getElementById('container').insertAdjacentHTML(
-          'beforeend', 
+          'beforeend',
           DOMPurify.sanitize(/* html */`
-            <h2>${`${billData['BillNumber']}: ${billData['Title']}`}</h2>
-            <h3>Before the ${committeeData['FullName']}</h3>
+            <h2>${`${billData.BillNumber}: ${billData.Title}`}</h2>
+            <h3>Before the ${committeeData.FullName}</h3>
             <div class="map-container">
               <div class="map"></div>
             </div>
-          `)
+          `),
         );
 
-        const mapDiv = document.querySelector(".map-container:last-child .map");
+        const mapDiv = document.querySelector('.map-container:last-child .map');
         const map = L.map(mapDiv).addLayer(L.tileLayer.provider('CartoDB.Positron'));
-        
+    
         Object.keys(layers).forEach((chamber) => {
           layers[chamber]
-          .on('add', () => searchControls[chamber].addTo(map))
-          .on('remove', () => searchControls[chamber].remove());
+            .on('add', () => searchControls[chamber].addTo(map))
+            .on('remove', () => searchControls[chamber].remove());
         });
-        
-        const billChamber = billData['BillNumber'].startsWith('S') ? 'Senate': 'House';
+    
+        const billChamber = billData.BillNumber.startsWith('S') ? 'Senate' : 'House';
         map.addLayer(layers[billChamber])
           .fitBounds(layers[billChamber].getBounds())
           // Avoid accidental excessive zoom out
