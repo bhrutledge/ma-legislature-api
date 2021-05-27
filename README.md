@@ -1,8 +1,8 @@
-# ma-committee-map
+# ma-legislature-api
 
-Proof-of-concept for showing legislative committee membership on a map.
+Examples of working with the [Massachusetts Legislature Public API](https://malegislature.gov/api/swagger/).
 
-Built with [Leaflet](https://leafletjs.com/), using data pulled from the [Massachusetts Legislature Public API](https://malegislature.gov/api/swagger/index.html?url=/api/swagger/v1/swagger.json#/), combined with geographic data from [bhrutledge/ma-legislature](https://github.com/bhrutledge/ma-legislature).
+Maps are built with [Leaflet](https://leafletjs.com/), using data pulled from the API, combined with geographic data from [bhrutledge/ma-legislature](https://github.com/bhrutledge/ma-legislature).
 
 ## Developing
 

@@ -1,7 +1,7 @@
 {
-  "name": "ma-committee-map",
+  "name": "ma-legislature-api",
   "version": "2021.5.0",
-  "description": "Proof-of-concept for showing legislative committee membership on a map.",
+  "description": "Examples of working with the Massachusetts Legislature API.",
   "author": "Brian H. Rutledge",
   "license": "CC0-1.0",
   "main": "index.js",
@@ -20,12 +20,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bhrutledge/ma-committee-map.git"
+    "url": "git+https://github.com/bhrutledge/ma-legislature-api.git"
   },
   "bugs": {
-    "url": "https://github.com/bhrutledge/ma-committee-map/issues"
+    "url": "https://github.com/bhrutledge/ma-legislature-api/issues"
   },
-  "homepage": "https://github.com/bhrutledge/ma-committee-map#readme",
+  "homepage": "https://github.com/bhrutledge/ma-legislature-api#readme",
   "browserslist": [
     "defaults and > 0.5% in US",
     "not IE 11"
