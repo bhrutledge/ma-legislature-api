@@ -4,6 +4,8 @@ Examples of working with the [Massachusetts Legislature Public API](https://male
 
 Maps are built with [Leaflet](https://leafletjs.com/), using data pulled from the API, combined with geographic data from [bhrutledge/ma-legislature](https://github.com/bhrutledge/ma-legislature).
 
+View the Jupyter notebooks that generate the data: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/bhrutledge/ma-legislature-api/HEAD?urlpath=lab)
+
 ## Developing
 
 Install the dependencies:
