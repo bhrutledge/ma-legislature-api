@@ -18,4 +18,4 @@ Run the development server:
 npm start
 ```
 
-View the map at <http://localhost:3000>, or <http://localhost:3000/embed/> for an `iframe`-d version.
+View the HTML at <http://localhost:3000>, or <http://localhost:3000/embed/> for an `iframe`-d version.
