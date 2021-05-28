@@ -207,7 +207,7 @@
         .then((response) => response.json()),
       fetch('../dist/ma_bill_192_S459.json')
         .then((response) => response.json()),
-    ]).then(([houseFeatures, senateFeatures, ...allBillData]) => {
+    ]).then(([houseFeatures, senateFeatures, ...bills]) => {
       /* Toggle the map highlight */
 
       document.querySelectorAll('input[name="highlight"]').forEach((input) => {
@@ -225,18 +225,18 @@
 
       /* Build a map for each bill */
 
-      allBillData.forEach((billData) => {
+      bills.forEach((bill) => {
         /* Build a rep info object, e.g. `rep.first_name`, `rep.party`, etc. */
 
-        const committeeData = billData.BeforeCommittee;
+        const committee = bill.BeforeCommittee;
 
         const committeeUrls = new Set();
-        [...committeeData.HouseMembers, ...committeeData.SenateMembers].forEach((member) => {
+        [...committee.HouseMembers, ...committee.SenateMembers].forEach((member) => {
           committeeUrls.add(`https://malegislature.gov/Legislators/Profile/${member.MemberCode}`);
         });
 
         const sponsorUrls = new Set();
-        billData.Cosponsors.forEach((sponsor) => {
+        bill.Cosponsors.forEach((sponsor) => {
           sponsorUrls.add(`https://malegislature.gov/Legislators/Profile/${sponsor.Id}`);
         });
 
@@ -328,12 +328,12 @@
           'beforeend',
           DOMPurify.sanitize(/* html */`
             <h2>
-              <a href="https://malegislature.gov/Bills/${billData.GeneralCourtNumber}/${billData.BillNumber}">${billData.BillNumber}</a>:
-              ${billData.Title}
+              <a href="https://malegislature.gov/Bills/${bill.GeneralCourtNumber}/${bill.BillNumber}">${bill.BillNumber}</a>:
+              ${bill.Title}
             </h2>
             <h3>
               Before the
-              <a href="https://malegislature.gov/Committees/Detail/${committeeData.CommitteeCode}/${committeeData.GeneralCourtNumber}">${committeeData.FullName}</a>
+              <a href="https://malegislature.gov/Committees/Detail/${committee.CommitteeCode}/${committee.GeneralCourtNumber}">${committee.FullName}</a>
             </h3>
             <div class="map-container">
               <div class="map"></div>
@@ -350,7 +350,7 @@
             .on('remove', () => searchControls[chamber].remove());
         });
     
-        const billChamber = billData.BillNumber.startsWith('S') ? 'Senate' : 'House';
+        const billChamber = bill.BillNumber.startsWith('S') ? 'Senate' : 'House';
         map.addLayer(layers[billChamber])
           .fitBounds(layers[billChamber].getBounds())
           // Avoid accidental excessive zoom out
