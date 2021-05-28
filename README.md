@@ -6,6 +6,8 @@ Maps are built with [Leaflet](https://leafletjs.com/), using data pulled from th
 
 View the Jupyter notebooks that generate the data: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/bhrutledge/ma-legislature-api/HEAD?urlpath=lab)
 
+See [Discussions](https://github.com/bhrutledge/ma-legislature-api/discussions/) for issues with the API, asking questions, and sharing ideas.
+
 ## Developing
 
 Install the dependencies:
