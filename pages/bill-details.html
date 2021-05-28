@@ -327,8 +327,14 @@
         document.getElementById('container').insertAdjacentHTML(
           'beforeend',
           DOMPurify.sanitize(/* html */`
-            <h2>${`${billData.BillNumber}: ${billData.Title}`}</h2>
-            <h3>Before the ${committeeData.FullName}</h3>
+            <h2>
+              <a href="https://malegislature.gov/Bills/${billData.GeneralCourtNumber}/${billData.BillNumber}">${billData.BillNumber}</a>:
+              ${billData.Title}
+            </h2>
+            <h3>
+              Before the
+              <a href="https://malegislature.gov/Committees/Detail/${committeeData.CommitteeCode}/${committeeData.GeneralCourtNumber}">${committeeData.FullName}</a>
+            </h3>
             <div class="map-container">
               <div class="map"></div>
             </div>
