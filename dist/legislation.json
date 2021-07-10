@@ -2,43 +2,85 @@
     {
         "id": "face-surveillance-regulation",
         "title": "Face Surveillance Regulation",
-        "session": "192",
-        "houseBill": "H135",
-        "senateBill": "S47"
+        "bills": [
+            {
+                "session": "192",
+                "number": "H135"
+            },
+            {
+                "session": "192",
+                "number": "S47"
+            }
+        ]
     },
     {
         "id": "end-debt-based-incarceration-license-suspensions",
         "title": "End Debt-Based Incarceration and License Suspensions",
-        "session": "192",
-        "houseBill": "H3453",
-        "senateBill": "S2304"
+        "bills": [
+            {
+                "session": "192",
+                "number": "H3453"
+            },
+            {
+                "session": "192",
+                "number": "S2304"
+            }
+        ]
     },
     {
         "id": "work-family-mobility",
-        "session": "192",
         "title": "Work and Family Mobility",
-        "houseBill": "H3456",
-        "senateBill": "S2289"
+        "bills": [
+            {
+                "session": "192",
+                "number": "H3456"
+            },
+            {
+                "session": "192",
+                "number": "S2289"
+            }
+        ]
     },
     {
         "id": "safe-communities",
         "title": "Safe Communities",
-        "session": "192",
-        "houseBill": "H2418",
-        "senateBill": "S1579"
+        "bills": [
+            {
+                "session": "192",
+                "number": "H2418"
+            },
+            {
+                "session": "192",
+                "number": "S1579"
+            }
+        ]
     },
     {
         "id": "votes-act",
         "title": "The VOTES Act",
-        "session": "192",
-        "houseBill": "H805",
-        "senateBill": "S459"
+        "bills": [
+            {
+                "session": "192",
+                "number": "H805"
+            },
+            {
+                "session": "192",
+                "number": "S459"
+            }
+        ]
     },
     {
         "id": "remote-access-open-meetings",
         "title": "Remote Access to Open Meetings",
-        "session": "192",
-        "houseBill": "H3152",
-        "senateBill": "S2082"
+        "bills": [
+            {
+                "session": "192",
+                "number": "H3152"
+            },
+            {
+                "session": "192",
+                "number": "S2082"
+            }
+        ]
     }
 ]

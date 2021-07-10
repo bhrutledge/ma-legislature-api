@@ -44,8 +44,7 @@
     /* The GeoJSON contains basic contact information for each rep */
     fetchJson('https://raw.githubusercontent.com/bhrutledge/ma-legislature/main/dist/ma_house.geojson'),
     fetchJson('https://raw.githubusercontent.com/bhrutledge/ma-legislature/main/dist/ma_senate.geojson'),
-    fetchJson(`dist/ma_bill_${selectedLegislation.session}_${selectedLegislation.houseBill}.json`),
-    fetchJson(`dist/ma_bill_${selectedLegislation.session}_${selectedLegislation.senateBill}.json`),
+    ...selectedLegislation.bills.map((bill) => fetchJson(`dist/ma_bill_${bill.session}_${bill.number}.json`)),
   ]);
 
   /* Set the page heading */
