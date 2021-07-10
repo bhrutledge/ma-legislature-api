@@ -1,86 +1,86 @@
 [
-    {
-        "id": "face-surveillance-regulation",
-        "title": "Face Surveillance Regulation",
-        "bills": [
-            {
-                "session": "192",
-                "number": "H135"
-            },
-            {
-                "session": "192",
-                "number": "S47"
-            }
-        ]
-    },
-    {
-        "id": "end-debt-based-incarceration-license-suspensions",
-        "title": "End Debt-Based Incarceration and License Suspensions",
-        "bills": [
-            {
-                "session": "192",
-                "number": "H3453"
-            },
-            {
-                "session": "192",
-                "number": "S2304"
-            }
-        ]
-    },
-    {
-        "id": "work-family-mobility",
-        "title": "Work and Family Mobility",
-        "bills": [
-            {
-                "session": "192",
-                "number": "H3456"
-            },
-            {
-                "session": "192",
-                "number": "S2289"
-            }
-        ]
-    },
-    {
-        "id": "safe-communities",
-        "title": "Safe Communities",
-        "bills": [
-            {
-                "session": "192",
-                "number": "H2418"
-            },
-            {
-                "session": "192",
-                "number": "S1579"
-            }
-        ]
-    },
-    {
-        "id": "votes-act",
-        "title": "The VOTES Act",
-        "bills": [
-            {
-                "session": "192",
-                "number": "H805"
-            },
-            {
-                "session": "192",
-                "number": "S459"
-            }
-        ]
-    },
-    {
-        "id": "remote-access-open-meetings",
-        "title": "Remote Access to Open Meetings",
-        "bills": [
-            {
-                "session": "192",
-                "number": "H3152"
-            },
-            {
-                "session": "192",
-                "number": "S2082"
-            }
-        ]
-    }
+  {
+    "id": "face-surveillance-regulation",
+    "title": "Face Surveillance Regulation",
+    "bills": [
+      {
+        "session": "192",
+        "number": "H135"
+      },
+      {
+        "session": "192",
+        "number": "S47"
+      }
+    ]
+  },
+  {
+    "id": "end-debt-based-incarceration-license-suspensions",
+    "title": "End Debt-Based Incarceration and License Suspensions",
+    "bills": [
+      {
+        "session": "192",
+        "number": "H3453"
+      },
+      {
+        "session": "192",
+        "number": "S2304"
+      }
+    ]
+  },
+  {
+    "id": "work-family-mobility",
+    "title": "Work and Family Mobility",
+    "bills": [
+      {
+        "session": "192",
+        "number": "H3456"
+      },
+      {
+        "session": "192",
+        "number": "S2289"
+      }
+    ]
+  },
+  {
+    "id": "safe-communities",
+    "title": "Safe Communities",
+    "bills": [
+      {
+        "session": "192",
+        "number": "H2418"
+      },
+      {
+        "session": "192",
+        "number": "S1579"
+      }
+    ]
+  },
+  {
+    "id": "votes-act",
+    "title": "The VOTES Act",
+    "bills": [
+      {
+        "session": "192",
+        "number": "H805"
+      },
+      {
+        "session": "192",
+        "number": "S459"
+      }
+    ]
+  },
+  {
+    "id": "remote-access-open-meetings",
+    "title": "Remote Access to Open Meetings",
+    "bills": [
+      {
+        "session": "192",
+        "number": "H3152"
+      },
+      {
+        "session": "192",
+        "number": "S2082"
+      }
+    ]
+  }
 ]
