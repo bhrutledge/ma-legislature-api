@@ -1,9 +1,8 @@
 <html>
 
 <head>
-  <title>Massachusetts Bill Details</title>
+  <title>Massachusetts Legislation Details</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <base target="_blank">
 
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
     integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
@@ -12,6 +11,11 @@
 
   <style>
     :root {
+      /* Matching leaflet styles */
+      --color--body: #333333;
+      --color--link: #0078A8;
+      --font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+
       --color--district: rgba(0, 0, 0, 0.2);
       --color--district--active: rgba(0, 0, 0, 0.4);
       --color--Unenrolled: rgba(0, 0, 0, 0.5);
@@ -23,20 +27,24 @@
     }
 
     body {
-      margin: 0;
-    }
-
-    #map:not(.leaflet-container)::after {
-      content: '…loading map…';
-      display: block;
-      padding: 1rem;
-      text-align: center;
-      /* Matching .leaflet-container */
-      font: oblique 12px/1.5 "Helvetica Neue", Arial, Helvetica, sans-serif;
+      color: var(--color--body);
+      font-family: var(--font-family);
+      margin: 1rem;
     }
 
     a {
-      color: #00529A !important;
+      color: var(--color--link);
+    }
+
+    a[aria-current="page"] {
+      color: var(--color--body);
+      text-decoration: none;
+    }
+
+    h1 small {
+      font-size: 1rem;
+      font-weight: normal;
+      vertical-align: middle;
     }
 
     .legend {
@@ -148,10 +156,10 @@
 
     /* Center the map with a constrained width and a responsive 64% aspect ratio (same as Massachusetts) */
     /* https://css-tricks.com/aspect-ratio-boxes/ */
-  
-    #container {
+
+    body > * {
       margin: 1rem auto;
-      max-width: 800px; 
+      max-width: 800px;
     }
 
     .map-container {
@@ -172,18 +180,7 @@
 </head>
 
 <body>
-  <div id="container">
-    <h1>VOTES Act</h1>
-    <p>
-      <strong>Highlight:</strong>
-      <label>
-        <input type="radio" name="highlight" value="highlight-sponsors" checked />Cosponsors
-      </label>
-      <label>
-        <input type="radio" name="highlight" value="highlight-committee" />Committee members
-      </label>
-    </p>
-  </div>
+  <main id="app"></main>
 
   <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
     integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
@@ -195,6 +192,84 @@
   <script>
     /* global L, DOMPurify */
 
+    const legislationChoices = [
+      {
+        id: 'face-surveillance-regulation',
+        title: 'Face Surveillance Regulation',
+        session: '192',
+        houseBill: 'H135',
+        senateBill: 'S47',
+      },
+      {
+        id: 'end-debt-based-incarceration-license-suspensions',
+        title: 'End Debt-Based Incarceration and License Suspensions',
+        session: '192',
+        houseBill: 'H3453',
+        senateBill: 'S2304',
+      },
+      {
+        id: 'work-family-mobility',
+        title: 'Work and Family Mobility',
+        session: '192',
+        houseBill: 'H3456',
+        senateBill: 'S2289',
+      },
+      {
+        id: 'safe-communities',
+        title: 'Safe Communities',
+        session: '192',
+        houseBill: 'H2418',
+        senateBill: 'S1579',
+      },
+      {
+        id: 'votes-act',
+        title: 'The VOTES Act',
+        session: '192',
+        houseBill: 'H805',
+        senateBill: 'S459',
+      },
+      {
+        id: 'remote-access-open-meetings',
+        title: 'Remote Access to Open Meetings',
+        session: '192',
+        houseBill: 'H3152',
+        senateBill: 'S2082',
+      },
+    ];
+
+    /* Select legislation from query string */
+
+    const searchParams = new URLSearchParams(document.location.search);
+    const selectedId = searchParams.get('id');
+    const selectedLegislation = legislationChoices.find(
+      (legislation) => legislation.id === selectedId,
+    );
+
+    if (!selectedLegislation) {
+      document.location.search = `?id=${legislationChoices[0].id}`;
+    }
+
+    /* Display a menu of legislation choices */
+
+    const leglislationNav = (legislation) => DOMPurify.sanitize(/* html */`
+      <li>
+        <a href="?id=${legislation.id}"
+          ${legislation.id === selectedId ? 'aria-current="page"' : ''}
+        >${legislation.title}</a>
+      </li>
+    `);
+
+    document.getElementById('app').insertAdjacentHTML(
+      'beforebegin',
+      DOMPurify.sanitize(/* html */`
+        <nav>
+          <ul>
+            ${legislationChoices.map(leglislationNav).join('')}
+          </ul>
+        </nav>
+      `),
+    );
+
     /* Load the legislative district boundaries and bill data */
 
     Promise.all([
@@ -203,11 +278,35 @@
         .then((response) => response.json()),
       fetch('https://raw.githubusercontent.com/bhrutledge/ma-legislature/main/dist/ma_senate.geojson')
         .then((response) => response.json()),
-      fetch('../dist/ma_bill_192_H805.json')
+      fetch(`dist/ma_bill_${selectedLegislation.session}_${selectedLegislation.houseBill}.json`)
         .then((response) => response.json()),
-      fetch('../dist/ma_bill_192_S459.json')
+      fetch(`dist/ma_bill_${selectedLegislation.session}_${selectedLegislation.senateBill}.json`)
         .then((response) => response.json()),
     ]).then(([houseFeatures, senateFeatures, ...bills]) => {
+      /* Set the page heading */
+
+      document.title = `${selectedLegislation.title} | ${document.title}`;
+
+      document.getElementById('app').insertAdjacentHTML(
+        'afterbegin',
+        DOMPurify.sanitize(/* html */`
+          <h1>
+            ${selectedLegislation.title}
+            <small><a href="https://www.aclum.org/en/legislation/${selectedId}">aclum.org</a></small>
+          </h1>
+
+          <p>
+            <strong>Highlight:</strong>
+            <label>
+              <input type="radio" name="highlight" value="highlight-sponsors" checked />Cosponsors
+            </label>
+            <label>
+              <input type="radio" name="highlight" value="highlight-committee" />Committee members
+            </label>
+          </p>
+        `),
+      );
+
       /* Toggle the map highlight */
 
       document.querySelectorAll('input[name="highlight"]').forEach((input) => {
@@ -324,17 +423,17 @@
 
         /* Build the map */
 
-        document.getElementById('container').insertAdjacentHTML(
+        document.getElementById('app').insertAdjacentHTML(
           'beforeend',
           DOMPurify.sanitize(/* html */`
             <h2>
               <a href="https://malegislature.gov/Bills/${bill.GeneralCourtNumber}/${bill.BillNumber}">${bill.BillNumber}</a>:
               ${bill.Title}
             </h2>
-            <h3>
+            <p>
               Before the
               <a href="https://malegislature.gov/Committees/Detail/${committee.CommitteeCode}/${committee.GeneralCourtNumber}">${committee.FullName}</a>
-            </h3>
+            </p>
             <div class="map-container">
               <div class="map"></div>
             </div>
@@ -343,13 +442,13 @@
 
         const mapDiv = document.querySelector('.map-container:last-child .map');
         const map = L.map(mapDiv).addLayer(L.tileLayer.provider('CartoDB.Positron'));
-    
+
         Object.keys(layers).forEach((chamber) => {
           layers[chamber]
             .on('add', () => searchControls[chamber].addTo(map))
             .on('remove', () => searchControls[chamber].remove());
         });
-    
+
         const billChamber = bill.BillNumber.startsWith('S') ? 'Senate' : 'House';
         map.addLayer(layers[billChamber])
           .fitBounds(layers[billChamber].getBounds())
