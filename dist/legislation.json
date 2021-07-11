@@ -1,86 +1,426 @@
 [
-  {
-    "id": "face-surveillance-regulation",
-    "title": "Face Surveillance Regulation",
-    "bills": [
-      {
-        "session": "192",
-        "number": "H135"
-      },
-      {
-        "session": "192",
-        "number": "S47"
-      }
-    ]
-  },
-  {
-    "id": "end-debt-based-incarceration-license-suspensions",
-    "title": "End Debt-Based Incarceration and License Suspensions",
-    "bills": [
-      {
-        "session": "192",
-        "number": "H3453"
-      },
-      {
-        "session": "192",
-        "number": "S2304"
-      }
-    ]
-  },
-  {
-    "id": "work-family-mobility",
-    "title": "Work and Family Mobility",
-    "bills": [
-      {
-        "session": "192",
-        "number": "H3456"
-      },
-      {
-        "session": "192",
-        "number": "S2289"
-      }
-    ]
-  },
-  {
-    "id": "safe-communities",
-    "title": "Safe Communities",
-    "bills": [
-      {
-        "session": "192",
-        "number": "H2418"
-      },
-      {
-        "session": "192",
-        "number": "S1579"
-      }
-    ]
-  },
-  {
-    "id": "votes-act",
-    "title": "The VOTES Act",
-    "bills": [
-      {
-        "session": "192",
-        "number": "H805"
-      },
-      {
-        "session": "192",
-        "number": "S459"
-      }
-    ]
-  },
-  {
-    "id": "remote-access-open-meetings",
-    "title": "Remote Access to Open Meetings",
-    "bills": [
-      {
-        "session": "192",
-        "number": "H3152"
-      },
-      {
-        "session": "192",
-        "number": "S2082"
-      }
-    ]
-  }
+    {
+        "id": "end-debt-based-incarceration-license-suspensions",
+        "url": "https://www.aclum.org/en/legislation/end-debt-based-incarceration-license-suspensions",
+        "title": "End Debt-Based Incarceration & License Suspensions",
+        "description": "Eliminate license suspension and incarceration of drivers for reasons related to debt and poverty, rather than safety. Help get people back to work, to school, and to medical appointments.",
+        "bills": [
+            {
+                "session": 192,
+                "number": "H3453"
+            },
+            {
+                "session": 192,
+                "number": "S2304"
+            }
+        ]
+    },
+    {
+        "id": "face-surveillance-regulation",
+        "url": "https://www.aclum.org/en/legislation/face-surveillance-regulation",
+        "title": "Face Surveillance Regulation",
+        "description": "Strengthen regulation of government use of racially biased and unreliable face recognition technology, which can screen, identify, and surveil people from a distance. Prevent the use of face surveillance to track or monitor every person in the Commonwealth and their activities in public places; require law enforcement to obtain a search warrant before conducting a facial recognition search; establish due process protections for people who are identified using facial recognition; and establish a centralized system for law enforcement agencies to access this technology and ensure accountability.",
+        "bills": [
+            {
+                "session": 192,
+                "number": "H135"
+            },
+            {
+                "session": 192,
+                "number": "S47"
+            }
+        ]
+    },
+    {
+        "id": "work-family-mobility",
+        "url": "https://www.aclum.org/en/legislation/work-family-mobility",
+        "title": "Work & Family Mobility",
+        "description": "Enable all qualified state residents to apply for a standard driver\u2019s license. Provide dignity to thousands of essential workers and safer roads for all.",
+        "bills": [
+            {
+                "session": 192,
+                "number": "H3456"
+            },
+            {
+                "session": 192,
+                "number": "S2289"
+            }
+        ]
+    },
+    {
+        "id": "safe-communities",
+        "url": "https://www.aclum.org/en/legislation/safe-communities",
+        "title": "Safe Communities",
+        "description": "Limit state cooperation with federal deportation activities. Strengthen trust in local government.",
+        "bills": [
+            {
+                "session": 192,
+                "number": "H2418"
+            },
+            {
+                "session": 192,
+                "number": "S1579"
+            }
+        ]
+    },
+    {
+        "id": "votes-act",
+        "url": "https://www.aclum.org/en/legislation/votes-act",
+        "title": "The VOTES Act",
+        "description": "Make Massachusetts elections more accessible, equitable, and secure. Make mail-in voting and early in-person voting permanent; establish same-day registration; improve ballot access for incarcerated voters; and establish risk-limiting audits.",
+        "bills": [
+            {
+                "session": 192,
+                "number": "H805"
+            },
+            {
+                "session": 192,
+                "number": "S459"
+            }
+        ]
+    },
+    {
+        "id": "remote-access-open-meetings",
+        "url": "https://www.aclum.org/en/legislation/remote-access-open-meetings",
+        "title": "Remote Access to Open Meetings",
+        "description": "Guarantee that remote access to public meetings outlives the pandemic by codifying Governor Baker\u2019s March 2020 emergency order in statute.",
+        "bills": [
+            {
+                "session": 192,
+                "number": "H3152"
+            },
+            {
+                "session": 192,
+                "number": "S2082"
+            }
+        ]
+    },
+    {
+        "id": "treatment-not-imprisonment-0",
+        "url": "https://www.aclum.org/en/legislation/treatment-not-imprisonment-0",
+        "title": "Treatment, Not Imprisonment",
+        "description": "Allow judges to order a person to get help for an addiction, but prohibit courts from sending a person to jail just for relapsing.",
+        "bills": [
+            {
+                "session": 192,
+                "number": "H1462"
+            },
+            {
+                "session": 192,
+                "number": "S1035"
+            }
+        ]
+    },
+    {
+        "id": "fix-massachusetts-civil-rights-act",
+        "url": "https://www.aclum.org/en/legislation/fix-massachusetts-civil-rights-act",
+        "title": "Fix the Massachusetts Civil Rights Act",
+        "description": "Enable individuals to seek redress when government actors violate their civil rights, whether or not the violation is accompanied by \u201cthreats, intimidation or coercion.\u201d",
+        "bills": [
+            {
+                "session": 192,
+                "number": "H1522"
+            }
+        ]
+    },
+    {
+        "id": "massachusetts-information-privacy-act",
+        "url": "https://www.aclum.org/en/legislation/massachusetts-information-privacy-act",
+        "title": "Massachusetts Information Privacy Act",
+        "description": "Establish a comprehensive state data privacy law for the 21st century. Protect consumers from unauthorized collection, use, and monetization of our personal information, with special protection for sensitive location and biometric data; prohibit discrimination based on personal information; and protect workers against unwarranted electronic monitoring on the job.",
+        "bills": [
+            {
+                "session": 192,
+                "number": "H142"
+            },
+            {
+                "session": 192,
+                "number": "S46"
+            }
+        ]
+    },
+    {
+        "id": "artificial-intelligence-commission-0",
+        "url": "https://www.aclum.org/en/legislation/artificial-intelligence-commission-0",
+        "title": "Artificial Intelligence Commission",
+        "description": "Convene a commission of experts to study the use and potential bias of computer-aided government decision-making on matters from criminal justice to child welfare.",
+        "bills": [
+            {
+                "session": 192,
+                "number": "H119"
+            },
+            {
+                "session": 192,
+                "number": "S60"
+            }
+        ]
+    },
+    {
+        "id": "automated-license-plate-readers",
+        "url": "https://www.aclum.org/en/legislation/automated-license-plate-readers",
+        "title": "Automated License Plate Readers",
+        "description": "Regulate government use of license plate readers, which track constitutionally protected activity, and protect the privacy of innocent drivers by limiting data retention, sharing, and access to their location information.",
+        "bills": [
+            {
+                "session": 192,
+                "number": "H3564"
+            }
+        ]
+    },
+    {
+        "id": "reduce-reincarceration-technical-violations-parole",
+        "url": "https://www.aclum.org/en/legislation/reduce-reincarceration-technical-violations-parole",
+        "title": "Reduce Reincarceration for Technical Violations of Parole",
+        "description": "Eliminate parole conditions that perpetuate systemic racism, and eliminate automatic reincarceration for technical violations of parole conditions that do not warrant a new arrest.",
+        "bills": [
+            {
+                "session": 192,
+                "number": "H1798"
+            },
+            {
+                "session": 192,
+                "number": "S1600"
+            }
+        ]
+    },
+    {
+        "id": "no-cost-prison-phone-calls",
+        "url": "https://www.aclum.org/en/legislation/no-cost-prison-phone-calls",
+        "title": "No Cost Prison Phone Calls",
+        "description": "Keep families connected by ending the sky-high cost of prison telephone and video calls.",
+        "bills": [
+            {
+                "session": 192,
+                "number": "H1900"
+            },
+            {
+                "session": 192,
+                "number": "S1559"
+            }
+        ]
+    },
+    {
+        "id": "prevent-imposition-mandatory-minimums-based-juvenile-records",
+        "url": "https://www.aclum.org/en/legislation/prevent-imposition-mandatory-minimums-based-juvenile-records",
+        "title": "Prevent Imposition of Mandatory Minimums Based on Juvenile Records",
+        "description": "Prevent courts from using past juvenile offenses to trigger mandatory minimum adult sentence enhancements. Kids are not criminals.",
+        "bills": [
+            {
+                "session": 192,
+                "number": "H1794"
+            },
+            {
+                "session": 192,
+                "number": "S1022"
+            }
+        ]
+    },
+    {
+        "id": "qualified-immunity-reform",
+        "url": "https://www.aclum.org/en/legislation/qualified-immunity-reform",
+        "title": "Qualified Immunity Reform",
+        "description": "Ensure that victims of police brutality get their day in court, that officers have to answer to the people they\u2019ve hurt, and that police departments can be held accountable.",
+        "bills": [
+            {
+                "session": 192,
+                "number": "S945"
+            }
+        ]
+    },
+    {
+        "id": "ending-life-without-parole",
+        "url": "https://www.aclum.org/en/legislation/ending-life-without-parole",
+        "title": "Ending Life Without Parole",
+        "description": "Eliminate life without parole sentences for adults and provide parole eligibility after 25 years; Limit sentence lengths further for juveniles and for felony murder and joint venture where the person was a co-participant who did not commit the actual homicide.",
+        "bills": [
+            {
+                "session": 192,
+                "number": "H1797"
+            }
+        ]
+    },
+    {
+        "id": "raise-age",
+        "url": "https://www.aclum.org/en/legislation/raise-age",
+        "title": "Raise the Age",
+        "description": "End the automatic prosecution of older adolescents as adults and related collateral consequences by raising the age of juvenile jurisdiction to include 18- to 20-year-olds, increasing access to diversion, and implementing positive youth development principles at multiple stages of the system.",
+        "bills": [
+            {
+                "session": 192,
+                "number": "H1826"
+            },
+            {
+                "session": 192,
+                "number": "S920"
+            }
+        ]
+    },
+    {
+        "id": "access-justice-0",
+        "url": "https://www.aclum.org/en/legislation/access-justice-0",
+        "title": "Access to Justice",
+        "description": "Ensure that all victims, witnesses, defendants, and people with civil matters in court receive due process and are able to attend court proceedings in safety.",
+        "bills": [
+            {
+                "session": 192,
+                "number": "H1519"
+            },
+            {
+                "session": 192,
+                "number": "S985"
+            }
+        ]
+    },
+    {
+        "id": "medication-opioid-use-disorder-all-correctional-facilities",
+        "url": "https://www.aclum.org/en/legislation/medication-opioid-use-disorder-all-correctional-facilities",
+        "title": "Medication for Opioid Use Disorder in All Correctional Facilities",
+        "description": "Build on a successful pilot program and guarantee consistent, evidence-based treatment across Department of Correction and county correctional facilities.",
+        "bills": [
+            {
+                "session": 192,
+                "number": "H2067"
+            },
+            {
+                "session": 192,
+                "number": "S1296"
+            }
+        ]
+    },
+    {
+        "id": "treatment-non-carceral-settings-people-not-accused-crimes",
+        "url": "https://www.aclum.org/en/legislation/treatment-non-carceral-settings-people-not-accused-crimes",
+        "title": "Treatment in Non-Carceral Settings for People Not Accused of Crimes",
+        "description": "Send people to treatment facilities, not jails, when they are involuntarily committed for substance use disorder under \u201cSection 35.\u201d",
+        "bills": [
+            {
+                "session": 192,
+                "number": "H2066"
+            },
+            {
+                "session": 192,
+                "number": "S1285"
+            }
+        ]
+    },
+    {
+        "id": "alternatives-community-emergency-services",
+        "url": "https://www.aclum.org/en/legislation/alternatives-community-emergency-services",
+        "title": "Alternatives for Community Emergency Services",
+        "description": "Create a grant program to provide a non-police response to mental health crises and other emergencies that do not require criminal system involvement.",
+        "bills": [
+            {
+                "session": 192,
+                "number": "H2519"
+            },
+            {
+                "session": 192,
+                "number": "S1552"
+            }
+        ]
+    },
+    {
+        "id": "full-spectrum-pregnancy-care",
+        "url": "https://www.aclum.org/en/legislation/full-spectrum-pregnancy-care",
+        "title": "Full Spectrum Pregnancy Care",
+        "description": "Ensure health coverage for full-spectrum pregnancy care, including abortion care, prenatal care, childbirth, and postpartum care, without any cost-sharing.",
+        "bills": [
+            {
+                "session": 192,
+                "number": "H1196"
+            },
+            {
+                "session": 192,
+                "number": "S673"
+            }
+        ]
+    },
+    {
+        "id": "access-emergency-contraception",
+        "url": "https://www.aclum.org/en/legislation/access-emergency-contraception",
+        "title": "Access to Emergency Contraception",
+        "description": "Remove unnecessary barriers to dispensing and coverage of emergency contraception, to ensure consistent access at all pharmacies in the commonwealth.",
+        "bills": [
+            {
+                "session": 192,
+                "number": "H2264"
+            },
+            {
+                "session": 192,
+                "number": "S1372"
+            }
+        ]
+    },
+    {
+        "id": "healthy-and-safety-sex-workers",
+        "url": "https://www.aclum.org/en/legislation/healthy-and-safety-sex-workers",
+        "title": "Healthy and Safety of Sex Workers",
+        "description": "Eliminate criminal penalties for consensual sex work. Protect sex workers from violence or arrest, enable them to access health care and services without discrimination, and make it possible to seek justice when they are harmed.",
+        "bills": [
+            {
+                "session": 192,
+                "number": "H1867"
+            }
+        ]
+    },
+    {
+        "id": "election-participation-eligible-incarcerated-voters",
+        "url": "https://www.aclum.org/en/legislation/election-participation-eligible-incarcerated-voters",
+        "title": "Election Participation for Eligible Incarcerated Voters",
+        "description": "Ensures voter registration, education, and ballot access for eligible incarcerated voters and returning citizens",
+        "bills": [
+            {
+                "session": 192,
+                "number": "H836"
+            },
+            {
+                "session": 192,
+                "number": "S474"
+            }
+        ]
+    },
+    {
+        "id": "emergency-paid-sick-time",
+        "url": "https://www.aclum.org/en/legislation/emergency-paid-sick-time",
+        "title": "Emergency Paid Sick Time",
+        "description": "Provide 10 additional days of sick leave during the COVID crisis, allowing workers to care for themselves or a family member.",
+        "bills": [
+            {
+                "session": 192,
+                "number": "H1961"
+            },
+            {
+                "session": 192,
+                "number": "S1222"
+            }
+        ]
+    },
+    {
+        "id": "common-start-0",
+        "url": "https://www.aclum.org/en/legislation/common-start-0",
+        "title": "Common Start",
+        "description": "Establish a universal system of affordable, high-quality early education and child care for all Massachusetts families.",
+        "bills": [
+            {
+                "session": 192,
+                "number": "H605"
+            },
+            {
+                "session": 192,
+                "number": "S362"
+            }
+        ]
+    },
+    {
+        "id": "right-counsel-evictions",
+        "url": "https://www.aclum.org/en/legislation/right-counsel-evictions",
+        "title": "Right to Counsel for Evictions",
+        "description": "Establish a statewide right to counsel program for evictions to promote housing stability and prevent homelessness.",
+        "bills": [
+            {
+                "session": 192,
+                "number": "S874"
+            }
+        ]
+    }
 ]

@@ -1,0 +1,202 @@
+{
+  "Title": "An Act to protect the voting rights of eligible incarcerated people",
+  "BillNumber": "S474",
+  "DocketNumber": "SD2458",
+  "GeneralCourtNumber": 192,
+  "PrimarySponsor": {
+    "Id": "AGH0",
+    "Name": "Adam G. Hinds",
+    "Type": 1,
+    "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/AGH0"
+  },
+  "Cosponsors": [
+    {
+      "Id": "AGH0",
+      "Name": "Adam G. Hinds",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/AGH0"
+    },
+    {
+      "Id": "E_U1",
+      "Name": "Erika Uyterhoeven",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/E_U1"
+    },
+    {
+      "Id": "JBE0",
+      "Name": "James B. Eldridge",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/JBE0"
+    },
+    {
+      "Id": "JMC0",
+      "Name": "Joanne M. Comerford",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/JMC0"
+    },
+    {
+      "Id": "SCD0",
+      "Name": "Sonia Chang-Diaz",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/SCD0"
+    },
+    {
+      "Id": "A_G0",
+      "Name": "Adam Gomez",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/A_G0"
+    },
+    {
+      "Id": "SND0",
+      "Name": "Sal N. DiDomenico",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/SND0"
+    },
+    {
+      "Id": "PDJ0",
+      "Name": "Patricia D. Jehlen",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/PDJ0"
+    },
+    {
+      "Id": "jml0",
+      "Name": "Jason M. Lewis",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/jml0"
+    },
+    {
+      "Id": "TLG1",
+      "Name": "Tami L. Gouveia",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/TLG1"
+    }
+  ],
+  "BillHistory": "http://malegislature.gov/api/GeneralCourts/192/Documents/S474/DocumentHistoryActions",
+  "LegislationTypeName": "Bill",
+  "RollCalls": [],
+  "Attachments": [],
+  "CommitteeRecommendations": [],
+  "Amendments": [],
+  "BeforeCommittee": {
+    "CommitteeCode": "J15",
+    "FullName": "Joint Committee on Election Laws",
+    "ShortName": "Election Laws (J)",
+    "Description": "It shall be the duty of the committee on Election Laws to consider all matters concerning elections, election laws and such other matters as may be referred. ",
+    "Branch": "Joint",
+    "GeneralCourtNumber": 192,
+    "SenateChairperson": {
+      "GeneralCourtNumber": 192,
+      "MemberCode": "BRF0",
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/BRF0"
+    },
+    "HouseChairperson": {
+      "GeneralCourtNumber": 192,
+      "MemberCode": "djr1",
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/djr1"
+    },
+    "Hearings": [
+      {
+        "EventId": 3725,
+        "Details": "http://malegislature.gov/api/Hearings/3725"
+      },
+      {
+        "EventId": 3764,
+        "Details": "http://malegislature.gov/api/Hearings/3764"
+      },
+      {
+        "EventId": 3803,
+        "Details": "http://malegislature.gov/api/Hearings/3803"
+      }
+    ],
+    "HouseMembers": [
+      {
+        "GeneralCourtNumber": 192,
+        "MemberCode": "JAG1",
+        "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/JAG1"
+      },
+      {
+        "GeneralCourtNumber": 192,
+        "MemberCode": "SPK1",
+        "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/SPK1"
+      },
+      {
+        "GeneralCourtNumber": 192,
+        "MemberCode": "M_K1",
+        "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/M_K1"
+      },
+      {
+        "GeneralCourtNumber": 192,
+        "MemberCode": "A_S1",
+        "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/A_S1"
+      },
+      {
+        "GeneralCourtNumber": 192,
+        "MemberCode": "CAD1",
+        "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/CAD1"
+      },
+      {
+        "GeneralCourtNumber": 192,
+        "MemberCode": "DRC1",
+        "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/DRC1"
+      },
+      {
+        "GeneralCourtNumber": 192,
+        "MemberCode": "djr1",
+        "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/djr1"
+      },
+      {
+        "GeneralCourtNumber": 192,
+        "MemberCode": "MTL1",
+        "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/MTL1"
+      },
+      {
+        "GeneralCourtNumber": 192,
+        "MemberCode": "PJK1",
+        "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/PJK1"
+      },
+      {
+        "GeneralCourtNumber": 192,
+        "MemberCode": "S_D1",
+        "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/S_D1"
+      },
+      {
+        "GeneralCourtNumber": 192,
+        "MemberCode": "T_V1",
+        "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/T_V1"
+      }
+    ],
+    "SenateMembers": [
+      {
+        "GeneralCourtNumber": 192,
+        "MemberCode": "A_G0",
+        "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/A_G0"
+      },
+      {
+        "GeneralCourtNumber": 192,
+        "MemberCode": "BRF0",
+        "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/BRF0"
+      },
+      {
+        "GeneralCourtNumber": 192,
+        "MemberCode": "CSC0",
+        "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/CSC0"
+      },
+      {
+        "GeneralCourtNumber": 192,
+        "MemberCode": "JBE0",
+        "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/JBE0"
+      },
+      {
+        "GeneralCourtNumber": 192,
+        "MemberCode": "MDB0",
+        "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/MDB0"
+      },
+      {
+        "GeneralCourtNumber": 192,
+        "MemberCode": "RCF0",
+        "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/RCF0"
+      }
+    ]
+  },
+  "ReportedOut": []
+}

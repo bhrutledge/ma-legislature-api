@@ -1,0 +1,286 @@
+{
+  "Title": "An Act promoting housing stability and homelessness prevention in Massachusetts ",
+  "BillNumber": "S874",
+  "DocketNumber": "SD1906",
+  "GeneralCourtNumber": 192,
+  "PrimarySponsor": {
+    "Id": "SND0",
+    "Name": "Sal N. DiDomenico",
+    "Type": 1,
+    "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/SND0"
+  },
+  "Cosponsors": [
+    {
+      "Id": "SND0",
+      "Name": "Sal N. DiDomenico",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/SND0"
+    },
+    {
+      "Id": "JPL1",
+      "Name": "Jack Patrick Lewis",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/JPL1"
+    },
+    {
+      "Id": "jml0",
+      "Name": "Jason M. Lewis",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/jml0"
+    },
+    {
+      "Id": "C_G1",
+      "Name": "Carlos Gonz\u00e1lez",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/C_G1"
+    },
+    {
+      "Id": "E_U1",
+      "Name": "Erika Uyterhoeven",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/E_U1"
+    },
+    {
+      "Id": "jwm1",
+      "Name": "Joseph W. McGonagle, Jr.",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/jwm1"
+    },
+    {
+      "Id": "JMC0",
+      "Name": "Joanne M. Comerford",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/JMC0"
+    },
+    {
+      "Id": "WFT0",
+      "Name": "Walter F. Timilty",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/WFT0"
+    },
+    {
+      "Id": "TMS1",
+      "Name": "Thomas M. Stanley",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/TMS1"
+    },
+    {
+      "Id": "JBE0",
+      "Name": "James B. Eldridge",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/JBE0"
+    },
+    {
+      "Id": "AGH0",
+      "Name": "Adam G. Hinds",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/AGH0"
+    },
+    {
+      "Id": "EPL0",
+      "Name": "Eric P. Lesser",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/EPL0"
+    },
+    {
+      "Id": "BMA1",
+      "Name": "Brian M. Ashe",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/BMA1"
+    },
+    {
+      "Id": "PDJ0",
+      "Name": "Patricia D. Jehlen",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/PDJ0"
+    },
+    {
+      "Id": "JBL0",
+      "Name": "Joan B. Lovely",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/JBL0"
+    },
+    {
+      "Id": "BPC0",
+      "Name": "Brendan P. Crighton",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/BPC0"
+    },
+    {
+      "Id": "PMO",
+      "Name": "Patrick M. O'Connor",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/PMO"
+    },
+    {
+      "Id": "MJM2",
+      "Name": "Mathew J. Muratore",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/MJM2"
+    },
+    {
+      "Id": "TLG1",
+      "Name": "Tami L. Gouveia",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/TLG1"
+    },
+    {
+      "Id": "SLG1",
+      "Name": "Susannah M. Whipps",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/SLG1"
+    },
+    {
+      "Id": "CAD1",
+      "Name": "Carol A. Doherty",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/CAD1"
+    },
+    {
+      "Id": "JCV0",
+      "Name": "John C. Velis",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/JCV0"
+    },
+    {
+      "Id": "HLC0",
+      "Name": "Harriette L. Chandler",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/HLC0"
+    },
+    {
+      "Id": "A_S1",
+      "Name": "Alan Silvia",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/A_S1"
+    }
+  ],
+  "BillHistory": "http://malegislature.gov/api/GeneralCourts/192/Documents/S874/DocumentHistoryActions",
+  "LegislationTypeName": "Bill",
+  "RollCalls": [],
+  "Attachments": [],
+  "CommitteeRecommendations": [],
+  "Amendments": [],
+  "BeforeCommittee": {
+    "CommitteeCode": "J28",
+    "FullName": "Joint Committee on Housing",
+    "ShortName": "Housing (J)",
+    "Description": "It shall be the duty of the committee on Housing to consider all matters concerning Chapter 40B housing, housing (generally), subdivision control, condominium laws, and such other matters as may be referred.",
+    "Branch": "Joint",
+    "GeneralCourtNumber": 192,
+    "SenateChairperson": {
+      "GeneralCourtNumber": 192,
+      "MemberCode": "JFK0",
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/JFK0"
+    },
+    "HouseChairperson": {
+      "GeneralCourtNumber": 192,
+      "MemberCode": "J_A1",
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/J_A1"
+    },
+    "Hearings": [
+      {
+        "EventId": 3708,
+        "Details": "http://malegislature.gov/api/Hearings/3708"
+      },
+      {
+        "EventId": 3709,
+        "Details": "http://malegislature.gov/api/Hearings/3709"
+      },
+      {
+        "EventId": 3723,
+        "Details": "http://malegislature.gov/api/Hearings/3723"
+      }
+    ],
+    "HouseMembers": [
+      {
+        "GeneralCourtNumber": 192,
+        "MemberCode": "R_C1",
+        "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/R_C1"
+      },
+      {
+        "GeneralCourtNumber": 192,
+        "MemberCode": "KAD1",
+        "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/KAD1"
+      },
+      {
+        "GeneralCourtNumber": 192,
+        "MemberCode": "C_H1",
+        "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/C_H1"
+      },
+      {
+        "GeneralCourtNumber": 192,
+        "MemberCode": "DAL1",
+        "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/DAL1"
+      },
+      {
+        "GeneralCourtNumber": 192,
+        "MemberCode": "DFD1",
+        "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/DFD1"
+      },
+      {
+        "GeneralCourtNumber": 192,
+        "MemberCode": "DKM1",
+        "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/DKM1"
+      },
+      {
+        "GeneralCourtNumber": 192,
+        "MemberCode": "J_A1",
+        "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/J_A1"
+      },
+      {
+        "GeneralCourtNumber": 192,
+        "MemberCode": "JHR1",
+        "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/JHR1"
+      },
+      {
+        "GeneralCourtNumber": 192,
+        "MemberCode": "M_C1",
+        "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/M_C1"
+      },
+      {
+        "GeneralCourtNumber": 192,
+        "MemberCode": "N_E1",
+        "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/N_E1"
+      },
+      {
+        "GeneralCourtNumber": 192,
+        "MemberCode": "PJK1",
+        "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/PJK1"
+      }
+    ],
+    "SenateMembers": [
+      {
+        "GeneralCourtNumber": 192,
+        "MemberCode": "HLC0",
+        "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/HLC0"
+      },
+      {
+        "GeneralCourtNumber": 192,
+        "MemberCode": "JBL0",
+        "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/JBL0"
+      },
+      {
+        "GeneralCourtNumber": 192,
+        "MemberCode": "JFK0",
+        "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/JFK0"
+      },
+      {
+        "GeneralCourtNumber": 192,
+        "MemberCode": "MJB0",
+        "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/MJB0"
+      },
+      {
+        "GeneralCourtNumber": 192,
+        "MemberCode": "PMO",
+        "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/PMO"
+      },
+      {
+        "GeneralCourtNumber": 192,
+        "MemberCode": "PDJ0",
+        "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/PDJ0"
+      }
+    ]
+  },
+  "ReportedOut": []
+}

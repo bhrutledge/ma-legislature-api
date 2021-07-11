@@ -1,0 +1,396 @@
+{
+  "Title": "An Act ensuring access to full spectrum pregnancy care",
+  "BillNumber": "H1196",
+  "DocketNumber": "HD2191",
+  "GeneralCourtNumber": 192,
+  "PrimarySponsor": {
+    "Id": "L_S1",
+    "Name": "Lindsay N. Sabadosa",
+    "Type": 1,
+    "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/L_S1"
+  },
+  "Cosponsors": [
+    {
+      "Id": "L_S1",
+      "Name": "Lindsay N. Sabadosa",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/L_S1"
+    },
+    {
+      "Id": "RBB1",
+      "Name": "Ruth B. Balser",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/RBB1"
+    },
+    {
+      "Id": "J_A1",
+      "Name": "James Arciero",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/J_A1"
+    },
+    {
+      "Id": "CPB2",
+      "Name": "Christine P. Barber",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/CPB2"
+    },
+    {
+      "Id": "NMB1",
+      "Name": "Natalie M. Blais",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/NMB1"
+    },
+    {
+      "Id": "AFC1",
+      "Name": "Antonio F. D. Cabral",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/AFC1"
+    },
+    {
+      "Id": "PLC1",
+      "Name": "Peter Capano",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/PLC1"
+    },
+    {
+      "Id": "HLC0",
+      "Name": "Harriette L. Chandler",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/HLC0"
+    },
+    {
+      "Id": "M_C1",
+      "Name": "Mike Connolly",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/M_C1"
+    },
+    {
+      "Id": "PAD1",
+      "Name": "Patricia A. Duffy",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/PAD1"
+    },
+    {
+      "Id": "CCD1",
+      "Name": "Carolyn C. Dykema",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/CCD1"
+    },
+    {
+      "Id": "JBE0",
+      "Name": "James B. Eldridge",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/JBE0"
+    },
+    {
+      "Id": "N_E1",
+      "Name": "Nika C. Elugardo",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/N_E1"
+    },
+    {
+      "Id": "DAF1",
+      "Name": "Dylan A. Fernandes",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/DAF1"
+    },
+    {
+      "Id": "BFO1",
+      "Name": "Brandy Fluker Oakley",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/BFO1"
+    },
+    {
+      "Id": "S_G1",
+      "Name": "Sean Garballey",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/S_G1"
+    },
+    {
+      "Id": "CLG1",
+      "Name": "Carmine Lawrence Gentile",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/CLG1"
+    },
+    {
+      "Id": "TLG1",
+      "Name": "Tami L. Gouveia",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/TLG1"
+    },
+    {
+      "Id": "N_H1",
+      "Name": "Natalie M. Higgins",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/N_H1"
+    },
+    {
+      "Id": "KGH1",
+      "Name": "Kevin G. Honan",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/KGH1"
+    },
+    {
+      "Id": "V_H1",
+      "Name": "Vanna Howard",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/V_H1"
+    },
+    {
+      "Id": "MSK1",
+      "Name": "Mary S. Keefe",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/MSK1"
+    },
+    {
+      "Id": "K_K1",
+      "Name": "Kay Khan",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/K_K1"
+    },
+    {
+      "Id": "MPK1",
+      "Name": "Michael P. Kushmerek",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/MPK1"
+    },
+    {
+      "Id": "DAL1",
+      "Name": "David Henry Argosky LeBoeuf",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/DAL1"
+    },
+    {
+      "Id": "JPL1",
+      "Name": "Jack Patrick Lewis",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/JPL1"
+    },
+    {
+      "Id": "jml0",
+      "Name": "Jason M. Lewis",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/jml0"
+    },
+    {
+      "Id": "DPL1",
+      "Name": "David Paul Linsky",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/DPL1"
+    },
+    {
+      "Id": "KLG1",
+      "Name": "Kate Lipper-Garabedian",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/KLG1"
+    },
+    {
+      "Id": "ACM1",
+      "Name": "Adrian C. Madaro",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/ACM1"
+    },
+    {
+      "Id": "EAM1",
+      "Name": "Elizabeth A. Malia",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/EAM1"
+    },
+    {
+      "Id": "PWM1",
+      "Name": "Paul W. Mark",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/PWM1"
+    },
+    {
+      "Id": "CAM2",
+      "Name": "Christina A. Minicucci",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/CAM2"
+    },
+    {
+      "Id": "L_M2",
+      "Name": "Liz Miranda",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/L_M2"
+    },
+    {
+      "Id": "TTN1",
+      "Name": "Tram T. Nguyen",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/TTN1"
+    },
+    {
+      "Id": "SCO1",
+      "Name": "Steven C. Owens",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/SCO1"
+    },
+    {
+      "Id": "SKP1",
+      "Name": "Sarah K. Peake",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/SKP1"
+    },
+    {
+      "Id": "RLR0",
+      "Name": "Rebecca L. Rausch",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/RLR0"
+    },
+    {
+      "Id": "DMR1",
+      "Name": "David M. Rogers",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/DMR1"
+    },
+    {
+      "Id": "DAS1",
+      "Name": "Danillo A. Sena",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/DAS1"
+    },
+    {
+      "Id": "TMS1",
+      "Name": "Thomas M. Stanley",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/TMS1"
+    },
+    {
+      "Id": "S_G2",
+      "Name": "Steven Ultrino",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/S_G2"
+    },
+    {
+      "Id": "T_V1",
+      "Name": "Tommy Vitolo",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/T_V1"
+    }
+  ],
+  "BillHistory": "http://malegislature.gov/api/GeneralCourts/192/Documents/H1196/DocumentHistoryActions",
+  "LegislationTypeName": "Bill",
+  "RollCalls": [],
+  "Attachments": [],
+  "CommitteeRecommendations": [],
+  "Amendments": [],
+  "BeforeCommittee": {
+    "CommitteeCode": "J11",
+    "FullName": "Joint Committee on Financial Services",
+    "ShortName": "Financial Services (J)",
+    "Description": "It shall be the duty of the committee on Financial Services to consider all matters concerning banks, banking institutions, credit unions, insurance companies, insurance, including motor vehicle insurance, small loans, and such other matters as may be referred. ",
+    "Branch": "Joint",
+    "GeneralCourtNumber": 192,
+    "SenateChairperson": {
+      "GeneralCourtNumber": 192,
+      "MemberCode": "BPC0",
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/BPC0"
+    },
+    "HouseChairperson": {
+      "GeneralCourtNumber": 192,
+      "MemberCode": "JMM1",
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/JMM1"
+    },
+    "Hearings": [
+      {
+        "EventId": 3705,
+        "Details": "http://malegislature.gov/api/Hearings/3705"
+      },
+      {
+        "EventId": 3812,
+        "Details": "http://malegislature.gov/api/Hearings/3812"
+      }
+    ],
+    "HouseMembers": [
+      {
+        "GeneralCourtNumber": 192,
+        "MemberCode": "SPK1",
+        "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/SPK1"
+      },
+      {
+        "GeneralCourtNumber": 192,
+        "MemberCode": "M_K1",
+        "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/M_K1"
+      },
+      {
+        "GeneralCourtNumber": 192,
+        "MemberCode": "SCO1",
+        "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/SCO1"
+      },
+      {
+        "GeneralCourtNumber": 192,
+        "MemberCode": "BJA1",
+        "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/BJA1"
+      },
+      {
+        "GeneralCourtNumber": 192,
+        "MemberCode": "DAL1",
+        "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/DAL1"
+      },
+      {
+        "GeneralCourtNumber": 192,
+        "MemberCode": "FJB1",
+        "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/FJB1"
+      },
+      {
+        "GeneralCourtNumber": 192,
+        "MemberCode": "JMM1",
+        "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/JMM1"
+      },
+      {
+        "GeneralCourtNumber": 192,
+        "MemberCode": "KLG1",
+        "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/KLG1"
+      },
+      {
+        "GeneralCourtNumber": 192,
+        "MemberCode": "NAG1",
+        "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/NAG1"
+      },
+      {
+        "GeneralCourtNumber": 192,
+        "MemberCode": "RMH1",
+        "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/RMH1"
+      },
+      {
+        "GeneralCourtNumber": 192,
+        "MemberCode": "WSP1",
+        "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/WSP1"
+      }
+    ],
+    "SenateMembers": [
+      {
+        "GeneralCourtNumber": 192,
+        "MemberCode": "BPC0",
+        "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/BPC0"
+      },
+      {
+        "GeneralCourtNumber": 192,
+        "MemberCode": "EDJ0",
+        "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/EDJ0"
+      },
+      {
+        "GeneralCourtNumber": 192,
+        "MemberCode": "JAB0",
+        "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/JAB0"
+      },
+      {
+        "GeneralCourtNumber": 192,
+        "MemberCode": "MOM0",
+        "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/MOM0"
+      },
+      {
+        "GeneralCourtNumber": 192,
+        "MemberCode": "RCF0",
+        "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/RCF0"
+      },
+      {
+        "GeneralCourtNumber": 192,
+        "MemberCode": "SLM0",
+        "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/SLM0"
+      }
+    ]
+  },
+  "ReportedOut": []
+}
