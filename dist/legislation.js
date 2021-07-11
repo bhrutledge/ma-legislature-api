@@ -24,11 +24,17 @@
   document.getElementById('app').insertAdjacentHTML(
     'beforeend',
     DOMPurify.sanitize(/* html */`
-      <h1>
-        ${selectedLegislation.title}
-        <small><a href="https://www.aclum.org/en/legislation/${selectedId}">aclum.org</a></small>
-      </h1>
-    `),
+      <h1>${selectedLegislation.title}</h1>
+
+      <blockquote>
+        ${selectedLegislation.description}
+        <br>
+        <cite>
+          More information on
+          <a href="${selectedLegislation.url}">${(new URL(selectedLegislation.url)).hostname.replace('www.', '')}</a>
+        </cite>
+      </blockquote >
+      `),
   );
 
   /* Load the legislative district boundaries and bill data */
