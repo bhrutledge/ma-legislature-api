@@ -114,18 +114,6 @@
 
   /* Templates for map elements */
 
-  const districtLegend = () => DOMPurify.sanitize(/* html */`
-      <div class="legend__item legend__item--Democrat">
-        Democrat
-      </div>
-      <div class="legend__item legend__item--Republican">
-        Republican
-      </div>
-      <div class="legend__item legend__item">
-        Other
-      </div>
-    `);
-
   const districtStyle = (rep) => ({
     className: `
         district district--${rep.party}
@@ -135,13 +123,13 @@
   });
 
   const districtPopup = (rep) => DOMPurify.sanitize(/* html */`
-      <p>
-        <strong>${rep.first_name} ${rep.last_name}</strong>
-        ${rep.party ? `<br />${rep.party}` : ''}
-        <br />${rep.district}
-        ${rep.url ? `<br /><a href="${rep.url}">Contact</a>` : ''}
-      </p>
-    `);
+    <p>
+      <strong>${rep.first_name} ${rep.last_name}</strong>
+      ${rep.party ? `<br />${rep.party}` : ''}
+      <br />${rep.district}
+      ${rep.url ? `<br /><a href="${rep.url}">Contact</a>` : ''}
+    </p>
+  `);
 
   const onPopup = (event) => {
     const active = event.type === 'popupopen';
@@ -218,15 +206,6 @@
     collapsed: false,
   });
   layerControl.addTo(map);
-
-  const legendControl = L.control({ position: 'bottomleft' });
-  legendControl.onAdd = () => {
-    const div = document.createElement('div');
-    div.classList = 'legend';
-    div.innerHTML = districtLegend();
-    return div;
-  };
-  legendControl.addTo(map);
 
   /* Display a menu of legislation choices */
 

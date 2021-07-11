@@ -1,17 +1,13 @@
 :root {
   /* Matching leaflet styles */
-  --color--body: #333333;
-  --color--link: #0078A8;
+  --color--body: rgb(51, 51, 51);
+  --color--link: rgb(0, 120, 168);
   --font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
 
   --color--district: rgba(0, 0, 0, 0.2);
   --color--district--active: rgba(0, 0, 0, 0.4);
-  --color--Unenrolled: rgba(0, 0, 0, 0.5);
-  --color--Unenrolled--active: rgba(0, 0, 0, 0.9);
-  --color--Democrat: rgba(0, 0, 255, 0.5);
-  --color--Democrat--active: rgba(0, 0, 255, 0.9);
-  --color--Republican: rgba(255, 0, 0, 0.5);
-  --color--Republican--active: rgba(255, 0, 0, 0.9);
+  --color--highlight: rgba(0, 120, 168, 0.6);
+  --color--highlight--active: rgba(0, 120, 168, 0.9);
 }
 
 body {
@@ -49,7 +45,7 @@ h1 small {
 }
 
 .legend__item::before {
-  background: var(--color--Unenrolled);
+  background: var(--color--highlight);
   border-radius: 2px;
   content: '';
   display: block;
@@ -81,31 +77,14 @@ h1 small {
   fill: var(--color--district--active);
 }
 
-.highlight-sponsors .district--sponsor.district--Unenrolled,
-.highlight-committee .district--committee.district--Unenrolled {
-  fill: var(--color--Unenrolled);
+.highlight-sponsors .district--sponsor,
+.highlight-committee .district--committee {
+  fill: var(--color--highlight);
 }
 
-.district--Unenrolled.district--active {
-  fill: var(--color--Unenrolled--active);
-}
-
-.highlight-sponsors .district--sponsor.district--Democrat,
-.highlight-committee .district--committee.district--Democrat {
-  fill: var(--color--Democrat);
-}
-
-.district--Democrat.district--active {
-  fill: var(--color--Democrat--active);
-}
-
-.highlight-sponsors .district--sponsor.district--Republican,
-.highlight-committee .district--committee.district--Republican {
-  fill: var(--color--Republican);
-}
-
-.district--Republican.district--active {
-  fill: var(--color--Republican--active);
+.highlight-sponsors .district--sponsor.district--active,
+.highlight-committee .district--committee.district--active {
+  fill: var(--color--highlight--active);
 }
 
 .leaflet-control-search .search-input {
