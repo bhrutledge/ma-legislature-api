@@ -272,6 +272,14 @@
       {
         "EventId": 3725,
         "Details": "http://malegislature.gov/api/Hearings/3725"
+      },
+      {
+        "EventId": 3764,
+        "Details": "http://malegislature.gov/api/Hearings/3764"
+      },
+      {
+        "EventId": 3803,
+        "Details": "http://malegislature.gov/api/Hearings/3803"
       }
     ],
     "HouseMembers": [

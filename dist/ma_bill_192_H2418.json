@@ -519,6 +519,12 @@
       "Name": "Meghan Kilcoyne",
       "Type": 1,
       "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/M_K1"
+    },
+    {
+      "Id": "WJD1",
+      "Name": "William J. Driscoll, Jr.",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/WJD1"
     }
   ],
   "BillHistory": "http://malegislature.gov/api/GeneralCourts/192/Documents/H2418/DocumentHistoryActions",
@@ -548,6 +554,14 @@
       {
         "EventId": 3734,
         "Details": "http://malegislature.gov/api/Hearings/3734"
+      },
+      {
+        "EventId": 3829,
+        "Details": "http://malegislature.gov/api/Hearings/3829"
+      },
+      {
+        "EventId": 3848,
+        "Details": "http://malegislature.gov/api/Hearings/3848"
       }
     ],
     "HouseMembers": [

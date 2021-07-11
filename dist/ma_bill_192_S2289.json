@@ -243,6 +243,12 @@
       "Name": "Paul R. Feeney",
       "Type": 1,
       "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/PRF0"
+    },
+    {
+      "Id": "LAE1",
+      "Name": "Lori A. Ehrlich",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/LAE1"
     }
   ],
   "BillHistory": "http://malegislature.gov/api/GeneralCourts/192/Documents/S2289/DocumentHistoryActions",
@@ -272,6 +278,18 @@
       {
         "EventId": 3639,
         "Details": "http://malegislature.gov/api/Hearings/3639"
+      },
+      {
+        "EventId": 3751,
+        "Details": "http://malegislature.gov/api/Hearings/3751"
+      },
+      {
+        "EventId": 3752,
+        "Details": "http://malegislature.gov/api/Hearings/3752"
+      },
+      {
+        "EventId": 3775,
+        "Details": "http://malegislature.gov/api/Hearings/3775"
       }
     ],
     "HouseMembers": [

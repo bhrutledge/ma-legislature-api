@@ -129,6 +129,30 @@
       "Name": "Julian Cyr",
       "Type": 1,
       "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/JAC0"
+    },
+    {
+      "Id": "PMO",
+      "Name": "Patrick M. O'Connor",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/PMO"
+    },
+    {
+      "Id": "D_D0",
+      "Name": "Diana DiZoglio",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/D_D0"
+    },
+    {
+      "Id": "BWM1",
+      "Name": "Brian W. Murray",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/BWM1"
+    },
+    {
+      "Id": "BPC0",
+      "Name": "Brendan P. Crighton",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/BPC0"
     }
   ],
   "BillHistory": "http://malegislature.gov/api/GeneralCourts/192/Documents/S2082/DocumentHistoryActions",
@@ -158,6 +182,22 @@
       {
         "EventId": 3642,
         "Details": "http://malegislature.gov/api/Hearings/3642"
+      },
+      {
+        "EventId": 3748,
+        "Details": "http://malegislature.gov/api/Hearings/3748"
+      },
+      {
+        "EventId": 3762,
+        "Details": "http://malegislature.gov/api/Hearings/3762"
+      },
+      {
+        "EventId": 3826,
+        "Details": "http://malegislature.gov/api/Hearings/3826"
+      },
+      {
+        "EventId": 3841,
+        "Details": "http://malegislature.gov/api/Hearings/3841"
       }
     ],
     "HouseMembers": [
