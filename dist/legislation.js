@@ -19,9 +19,11 @@
 
   /* Set the page heading */
 
+  const app = document.getElementById('app');
+
   document.title = `${selectedLegislation.title} | ${document.title}`;
 
-  document.getElementById('app').insertAdjacentHTML(
+  app.insertAdjacentHTML(
     'beforeend',
     DOMPurify.sanitize(/* html */`
       <h1>${selectedLegislation.title}</h1>
@@ -51,7 +53,7 @@
   bills.forEach((bill) => {
     const committee = bill.BeforeCommittee;
 
-    document.getElementById('app').insertAdjacentHTML(
+    app.insertAdjacentHTML(
       'beforeend',
       DOMPurify.sanitize(/* html */`
         <p>
@@ -67,7 +69,7 @@
 
   /* Toggle the map highlight */
 
-  document.getElementById('app').insertAdjacentHTML(
+  app.insertAdjacentHTML(
     'beforeend',
     DOMPurify.sanitize(/* html */`
       <p>
@@ -184,7 +186,7 @@
 
   /* Build the map */
 
-  document.getElementById('app').insertAdjacentHTML(
+  app.insertAdjacentHTML(
     'beforeend',
     DOMPurify.sanitize(/* html */`
       <div class="map-container">
@@ -223,7 +225,7 @@
     </li>
   `);
 
-  document.getElementById('app').insertAdjacentHTML(
+  app.insertAdjacentHTML(
     'beforeend',
     DOMPurify.sanitize(/* html */`
       <h2>Legislative priorities</h2>
