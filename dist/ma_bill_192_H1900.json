@@ -65,6 +65,12 @@
       "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/N_E1"
     },
     {
+      "Id": "DAF1",
+      "Name": "Dylan A. Fernandes",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/DAF1"
+    },
+    {
       "Id": "BFO1",
       "Name": "Brandy Fluker Oakley",
       "Type": 1,
@@ -275,6 +281,7 @@
   "Attachments": [],
   "CommitteeRecommendations": [],
   "Amendments": [],
+  "Updated": "2021-07-17T17:10:24.522123+00:00",
   "BeforeCommittee": {
     "CommitteeCode": "J19",
     "FullName": "Joint Committee on the Judiciary",

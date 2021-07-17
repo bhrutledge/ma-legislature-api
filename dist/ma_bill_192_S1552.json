@@ -53,6 +53,12 @@
       "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/PMO"
     },
     {
+      "Id": "M_C1",
+      "Name": "Mike Connolly",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/M_C1"
+    },
+    {
       "Id": "SND0",
       "Name": "Sal N. DiDomenico",
       "Type": 1,
@@ -83,6 +89,12 @@
       "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/SLM0"
     },
     {
+      "Id": "RLR0",
+      "Name": "Rebecca L. Rausch",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/RLR0"
+    },
+    {
       "Id": "MDR1",
       "Name": "Maria Duaime Robinson",
       "Type": 1,
@@ -95,6 +107,7 @@
   "Attachments": [],
   "CommitteeRecommendations": [],
   "Amendments": [],
+  "Updated": "2021-07-17T17:11:02.608394+00:00",
   "BeforeCommittee": {
     "CommitteeCode": "J22",
     "FullName": "Joint Committee on Public Safety and Homeland Security",
