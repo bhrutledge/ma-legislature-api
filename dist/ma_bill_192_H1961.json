@@ -533,7 +533,7 @@
   "Attachments": [],
   "CommitteeRecommendations": [],
   "Amendments": [],
-  "Updated": "2021-07-17T17:11:24.118292+00:00",
+  "Updated": "2021-07-18T21:00:40.149179+00:00",
   "BeforeCommittee": {
     "CommitteeCode": "J43",
     "FullName": "Joint Committee on Labor and Workforce Development",
@@ -575,6 +575,10 @@
       {
         "EventId": 3827,
         "Details": "http://malegislature.gov/api/Hearings/3827"
+      },
+      {
+        "EventId": 3874,
+        "Details": "http://malegislature.gov/api/Hearings/3874"
       }
     ],
     "HouseMembers": [
