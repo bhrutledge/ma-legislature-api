@@ -19,10 +19,7 @@ jobs:
           python3 -m pip install -r requirements.txt
       - name: Run notebooks
         run: |
-          cd notebooks
-          jupyter nbconvert --to notebook --inplace --execute Committees.ipynb
-          jupyter nbconvert --to notebook --inplace --execute LegislativeMembers.ipynb
-          python3 update_legislation.py
+          make -C notebooks legislation
       - name: Review output
         run: |
           git lfs ls-files -s

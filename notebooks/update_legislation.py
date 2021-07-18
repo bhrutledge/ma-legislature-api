@@ -4,7 +4,7 @@ from pathlib import Path
 import papermill as pm
 from tqdm import tqdm
 
-input_path = Path("Bill Details.ipynb")
+input_path = Path("Bill.ipynb")
 output_dir = Path("tmp")
 output_dir.mkdir(exist_ok=True)
 
