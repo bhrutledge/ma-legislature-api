@@ -8,11 +8,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-        with:
-          lfs: true
-      - name: Review checkout
-        run: |
-          git lfs ls-files -s
       - name: Install Python dependencies
         run: |
           python3 -m pip install nbconvert papermill
@@ -20,8 +15,4 @@ jobs:
       - name: Run notebooks
         run: |
           make -C notebooks legislation
-      - name: Review output
-        run: |
-          git lfs ls-files -s
-          git status
       - uses: stefanzweifel/git-auto-commit-action@v4
