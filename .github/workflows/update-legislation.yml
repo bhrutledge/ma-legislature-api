@@ -1,0 +1,22 @@
+name: Update legislation
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 8 * * *"
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install Python dependencies
+        run: |
+          python3 -m pip install nbconvert papermill
+          python3 -m pip install -r requirements.txt
+      - name: Run notebooks
+        run: |
+          make -C notebooks legislation
+      - uses: peter-evans/create-pull-request@v3
+        with:
+          title: Update legislation
+          branch: update-legislation
