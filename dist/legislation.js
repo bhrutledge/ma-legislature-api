@@ -67,6 +67,17 @@
     );
   });
 
+  /* Display updated timestamp */
+
+  const updatedAt = new Date(bills.map((b) => b.Updated).sort()[0]);
+
+  app.insertAdjacentHTML(
+    'beforeend',
+    DOMPurify.sanitize(/* html */`
+      <p><small>Updated on ${updatedAt.toLocaleDateString()}</small></p>
+    `),
+  );
+
   /* Toggle the map highlight */
 
   app.insertAdjacentHTML(
