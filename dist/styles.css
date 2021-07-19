@@ -48,14 +48,6 @@ a[aria-current="page"] {
   width: 1rem;
 }
 
-.legend__item--Democrat::before {
-  background: var(--color--Democrat);
-}
-
-.legend__item--Republican::before {
-  background: var(--color--Republican);
-}
-
 .district {
   fill: var(--color--district);
   fill-opacity: 1;
