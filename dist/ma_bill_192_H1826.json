@@ -149,6 +149,12 @@
       "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/L_S1"
     },
     {
+      "Id": "DAS1",
+      "Name": "Danillo A. Sena",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/DAS1"
+    },
+    {
       "Id": "TMS1",
       "Name": "Thomas M. Stanley",
       "Type": 1,
@@ -179,7 +185,7 @@
   "Attachments": [],
   "CommitteeRecommendations": [],
   "Amendments": [],
-  "Updated": "2021-07-19T08:31:33.684942+00:00",
+  "Updated": "2021-07-20T10:11:05.726981+00:00",
   "BeforeCommittee": {
     "CommitteeCode": "J19",
     "FullName": "Joint Committee on the Judiciary",
