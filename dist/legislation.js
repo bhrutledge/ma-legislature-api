@@ -50,18 +50,22 @@
 
   /* Display each bill */
 
-  bills.forEach((bill) => {
-    const committee = bill.BeforeCommittee;
+  const billLink = (bill) => DOMPurify.sanitize(/* html */`
+    <a href=  "https://malegislature.gov/Bills/${bill.GeneralCourtNumber}/${bill.BillNumber}">${bill.BillNumber}</a>
+  `);
 
+  const committeeLink = (committee) => DOMPurify.sanitize(/* html */`
+    <a href="https://malegislature.gov/Committees/Detail/${committee.CommitteeCode}/${committee.GeneralCourtNumber}">${committee.FullName}</a>
+  `);
+
+  bills.forEach((bill) => {
     app.insertAdjacentHTML(
       'beforeend',
       DOMPurify.sanitize(/* html */`
         <p>
-          <a href="https://malegislature.gov/Bills/${bill.GeneralCourtNumber}/${bill.BillNumber}">${bill.BillNumber}</a>:
-          ${bill.Title}
-          <br />
-          Before the
-          <a href="https://malegislature.gov/Committees/Detail/${committee.CommitteeCode}/${committee.GeneralCourtNumber}">${committee.FullName}</a>
+          ${billLink(bill)} - ${bill.Title}
+          ${bill.BeforeCommittee.FullName ? `<br />Before the ${committeeLink(bill.BeforeCommittee)}` : ''}
+          ${bill.ReportedOut.map((committee) => `<br />Reported out from the ${committeeLink(committee)}`).join('')}
         </p>
       `),
     );
@@ -85,10 +89,11 @@
 
   bills.forEach((bill) => {
     const committee = bill.BeforeCommittee;
-
-    [...committee.HouseMembers, ...committee.SenateMembers].forEach((member) => {
-      committeeUrls.add(`https://malegislature.gov/Legislators/Profile/${member.MemberCode}`);
-    });
+    if (committee.HouseMembers && committee.SenateMembers) {
+      [...committee.HouseMembers, ...committee.SenateMembers].forEach((member) => {
+        committeeUrls.add(`https://malegislature.gov/Legislators/Profile/${member.MemberCode}`);
+      });
+    }
 
     bill.Cosponsors.forEach((sponsor) => {
       sponsorUrls.add(`https://malegislature.gov/Legislators/Profile/${sponsor.Id}`);
