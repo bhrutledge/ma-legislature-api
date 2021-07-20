@@ -246,9 +246,13 @@
 
   const leglislationNavItem = (legislation) => DOMPurify.sanitize(/* html */`
     <li>
-      <a href="?id=${legislation.id}"
-        ${legislation.id === selectedId ? 'aria-current="page"' : ''}
-      >${legislation.title}</a>
+      <p>
+        <a href="?id=${legislation.id}"
+          ${legislation.id === selectedId ? 'aria-current="page"' : ''}
+        >${legislation.title}</a>
+        <br>
+        ${legislation.bills.map((b) => b.number).join(' / ')}
+      </p>
     </li>
   `);
 
