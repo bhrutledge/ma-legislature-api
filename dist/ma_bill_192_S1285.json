@@ -59,7 +59,7 @@
   "Attachments": [],
   "CommitteeRecommendations": [],
   "Amendments": [],
-  "Updated": "2021-07-20T10:11:32.558981+00:00",
+  "Updated": "2021-07-21T08:27:27.617369+00:00",
   "BeforeCommittee": {
     "CommitteeCode": "J18",
     "FullName": "Joint Committee on Mental Health, Substance Use and Recovery",
@@ -101,6 +101,10 @@
       {
         "EventId": 3847,
         "Details": "http://malegislature.gov/api/Hearings/3847"
+      },
+      {
+        "EventId": 3887,
+        "Details": "http://malegislature.gov/api/Hearings/3887"
       }
     ],
     "HouseMembers": [

@@ -89,7 +89,7 @@
   "Attachments": [],
   "CommitteeRecommendations": [],
   "Amendments": [],
-  "Updated": "2021-07-20T10:11:08.890945+00:00",
+  "Updated": "2021-07-21T08:27:13.087503+00:00",
   "BeforeCommittee": {
     "CommitteeCode": "J19",
     "FullName": "Joint Committee on the Judiciary",
@@ -127,6 +127,10 @@
       {
         "EventId": 3776,
         "Details": "http://malegislature.gov/api/Hearings/3776"
+      },
+      {
+        "EventId": 3888,
+        "Details": "http://malegislature.gov/api/Hearings/3888"
       }
     ],
     "HouseMembers": [
