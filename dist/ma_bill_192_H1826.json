@@ -35,6 +35,12 @@
       "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/CPB2"
     },
     {
+      "Id": "M_C2",
+      "Name": "Michelle L. Ciccolo",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/M_C2"
+    },
+    {
       "Id": "MAD1",
       "Name": "Marcos A. Devers",
       "Type": 1,
@@ -185,7 +191,7 @@
   "Attachments": [],
   "CommitteeRecommendations": [],
   "Amendments": [],
-  "Updated": "2021-07-22T08:23:17.695128+00:00",
+  "Updated": "2021-07-23T08:24:46.133455+00:00",
   "BeforeCommittee": {
     "CommitteeCode": "J19",
     "FullName": "Joint Committee on the Judiciary",
