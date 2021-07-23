@@ -83,6 +83,12 @@
       "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/MCD1"
     },
     {
+      "Id": "MAD1",
+      "Name": "Marcos A. Devers",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/MAD1"
+    },
+    {
       "Id": "M_D2",
       "Name": "Mindy Domb",
       "Type": 1,
@@ -334,7 +340,7 @@
     }
   ],
   "Amendments": [],
-  "Updated": "2021-07-22T08:22:09.132965+00:00",
+  "Updated": "2021-07-23T08:23:38.689767+00:00",
   "BeforeCommittee": {
     "CommitteeCode": "J19",
     "FullName": "Joint Committee on the Judiciary",

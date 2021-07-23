@@ -47,6 +47,12 @@
       "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/PLC1"
     },
     {
+      "Id": "M_C2",
+      "Name": "Michelle L. Ciccolo",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/M_C2"
+    },
+    {
       "Id": "M_C1",
       "Name": "Mike Connolly",
       "Type": 1,
@@ -215,7 +221,7 @@
   "Attachments": [],
   "CommitteeRecommendations": [],
   "Amendments": [],
-  "Updated": "2021-07-22T08:23:37.951547+00:00",
+  "Updated": "2021-07-23T08:25:03.657264+00:00",
   "BeforeCommittee": {
     "CommitteeCode": "J22",
     "FullName": "Joint Committee on Public Safety and Homeland Security",
