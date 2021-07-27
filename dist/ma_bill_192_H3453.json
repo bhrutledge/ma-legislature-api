@@ -269,7 +269,7 @@
   "Attachments": [],
   "CommitteeRecommendations": [],
   "Amendments": [],
-  "Updated": "2021-07-26T08:31:45.805150+00:00",
+  "Updated": "2021-07-27T08:26:09.984493+00:00",
   "BeforeCommittee": {
     "CommitteeCode": "J27",
     "FullName": "Joint Committee on Transportation",
@@ -305,12 +305,12 @@
         "Details": "http://malegislature.gov/api/Hearings/3775"
       },
       {
-        "EventId": 3876,
-        "Details": "http://malegislature.gov/api/Hearings/3876"
-      },
-      {
         "EventId": 3875,
         "Details": "http://malegislature.gov/api/Hearings/3875"
+      },
+      {
+        "EventId": 3876,
+        "Details": "http://malegislature.gov/api/Hearings/3876"
       }
     ],
     "HouseMembers": [
