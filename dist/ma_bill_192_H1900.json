@@ -119,6 +119,12 @@
       "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/N_H1"
     },
     {
+      "Id": "V_H1",
+      "Name": "Vanna Howard",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/V_H1"
+    },
+    {
       "Id": "PJK1",
       "Name": "Patrick Joseph Kearney",
       "Type": 1,
@@ -281,7 +287,7 @@
   "Attachments": [],
   "CommitteeRecommendations": [],
   "Amendments": [],
-  "Updated": "2021-07-29T08:27:02.313093+00:00",
+  "Updated": "2021-07-30T08:25:22.900752+00:00",
   "BeforeCommittee": {
     "CommitteeCode": "J19",
     "FullName": "Joint Committee on the Judiciary",
