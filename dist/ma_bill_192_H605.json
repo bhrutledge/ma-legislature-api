@@ -335,6 +335,12 @@
       "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/KGH1"
     },
     {
+      "Id": "V_H1",
+      "Name": "Vanna Howard",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/V_H1"
+    },
+    {
       "Id": "PDJ0",
       "Name": "Patricia D. Jehlen",
       "Type": 1,
@@ -647,7 +653,7 @@
   "Attachments": [],
   "CommitteeRecommendations": [],
   "Amendments": [],
-  "Updated": "2021-07-30T08:26:22.801163+00:00",
+  "Updated": "2021-07-31T08:30:50.091523+00:00",
   "BeforeCommittee": {
     "CommitteeCode": "J14",
     "FullName": "Joint Committee on Education",

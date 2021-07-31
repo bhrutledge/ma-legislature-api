@@ -47,6 +47,12 @@
       "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/CPB2"
     },
     {
+      "Id": "SCD0",
+      "Name": "Sonia Chang-Diaz",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/SCD0"
+    },
+    {
       "Id": "M_D2",
       "Name": "Mindy Domb",
       "Type": 1,
@@ -149,7 +155,7 @@
   "Attachments": [],
   "CommitteeRecommendations": [],
   "Amendments": [],
-  "Updated": "2021-07-30T08:25:35.866071+00:00",
+  "Updated": "2021-07-31T08:29:58.913529+00:00",
   "BeforeCommittee": {
     "CommitteeCode": "J19",
     "FullName": "Joint Committee on the Judiciary",
