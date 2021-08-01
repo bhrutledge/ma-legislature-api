@@ -43,13 +43,25 @@ a[aria-current="page"] {
 }
 
 .legend__item::before {
-  background: var(--color--sponsor);
+  background: var(--color--district);
   border-radius: 2px;
   content: '';
   display: block;
   margin-right: 0.5rem;
   height: 1rem;
   width: 1rem;
+}
+
+.legend__item--sponsor::before {
+  background: var(--color--sponsor);
+}
+
+.legend__item--committee::before {
+  background: var(--color--committee);
+}
+
+.legend__item--sponsor-committee::before {
+  background: var(--color--sponsor-committee);
 }
 
 .district {
