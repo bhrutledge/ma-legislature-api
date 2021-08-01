@@ -6,12 +6,14 @@
 
   --color--district: rgba(0, 0, 0, 0.2);
   --color--district--active: rgba(0, 0, 0, 0.4);
-  --color--sponsor: rgba(0, 120, 168, 0.6);
-  --color--sponsor--active: rgba(0, 120, 168, 0.9);
-  --color--committee: rgba(168, 0, 50, 0.6);
-  --color--committee--active: rgba(168, 0, 50, 0.9);
-  --color--sponsor-committee: rgba(84, 60, 109, 0.6);
-  --color--sponsor-committee--active: rgba(84, 60, 109, 0.9);
+
+  /* https://colorbrewer2.org/#type=qualitative&scheme=Dark2&n=3 */
+  --color--sponsor: rgba(27, 158, 119, 0.6);
+  --color--sponsor--active: rgba(27, 158, 119, 0.9);
+  --color--committee: rgba(117, 112, 179, 0.6);
+  --color--committee--active: rgba(117, 112, 179, 0.9);
+  --color--sponsor-committee: rgba(217, 95, 2, 0.6);
+  --color--sponsor-committee--active: rgba(217, 95, 2, 0.9);
 }
 
 body {
