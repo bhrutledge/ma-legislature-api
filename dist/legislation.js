@@ -201,51 +201,27 @@
   });
   layerControl.addTo(map);
 
-  /* Toggle the map highlight */
+  /* Add a legend */
 
-  const highlightControl = L.control({ position: 'topright' });
-  highlightControl.onAdd = () => {
-    // Based on L.control.layers
-    const div = L.DomUtil.create('div', 'leaflet-control-layers leaflet-control-layers-expanded');
-    div.innerHTML = DOMPurify.sanitize(/* html */`
-      <section class="leaflet-control-layers-list">
-        <label>
-          <input
-            type="radio"
-            name="highlight"
-            value="highlight-sponsors"
-            class="leaflet-control-layers-selector"
-            checked
-          >
-          Cosponsors
-        </label>
-        <label>
-          <input
-            type="radio"
-            name="highlight"
-            value="highlight-committee"
-            class="leaflet-control-layers-selector"
-          >
-          Committee
-        </label>
-      </section>
-    `);
+  const districtLegend = () => /* html */`
+    <div class="legend__item legend__item--sponsor">
+      Cosponsor
+    </div>
+    <div class="legend__item legend__item--committee">
+      Committee
+    </div>
+    <div class="legend__item legend__item--sponsor-committee">
+      Both
+    </div>
+  `;
+
+  const legendControl = L.control({ position: 'topright' });
+  legendControl.onAdd = () => {
+    const div = L.DomUtil.create('div', 'legend');
+    div.innerHTML = districtLegend();
     return div;
   };
-  highlightControl.addTo(map);
-
-  document.querySelectorAll('input[name="highlight"]').forEach((input) => {
-    input.addEventListener('change', (event) => {
-      const currentHighlights = Array.from(document.body.classList)
-        .filter((c) => c.startsWith('highlight'));
-
-      document.body.classList.remove(...currentHighlights);
-      document.body.classList.add(event.target.value);
-    });
-  });
-
-  const checkedHiglight = document.querySelector('input[name="highlight"]:checked');
-  document.body.classList.add(checkedHiglight.value);
+  legendControl.addTo(map);
 
   /* Display a menu of legislation choices */
 
