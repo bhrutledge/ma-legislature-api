@@ -215,6 +215,12 @@
       "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/PAD1"
     },
     {
+      "Id": "LAE1",
+      "Name": "Lori A. Ehrlich",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/LAE1"
+    },
+    {
       "Id": "JBE0",
       "Name": "James B. Eldridge",
       "Type": 1,
@@ -455,6 +461,12 @@
       "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/CAM2"
     },
     {
+      "Id": "L_M2",
+      "Name": "Liz Miranda",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/L_M2"
+    },
+    {
       "Id": "R_M2",
       "Name": "Rady Mom",
       "Type": 1,
@@ -653,7 +665,7 @@
   "Attachments": [],
   "CommitteeRecommendations": [],
   "Amendments": [],
-  "Updated": "2021-08-11T08:31:00.784591+00:00",
+  "Updated": "2021-08-12T08:27:11.021537+00:00",
   "BeforeCommittee": {
     "CommitteeCode": "J14",
     "FullName": "Joint Committee on Education",
