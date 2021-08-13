@@ -41,6 +41,12 @@
       "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/NMB1"
     },
     {
+      "Id": "M_C2",
+      "Name": "Michelle L. Ciccolo",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/M_C2"
+    },
+    {
       "Id": "M_C1",
       "Name": "Mike Connolly",
       "Type": 1,
@@ -161,7 +167,7 @@
   "Attachments": [],
   "CommitteeRecommendations": [],
   "Amendments": [],
-  "Updated": "2021-08-12T08:26:59.492727+00:00",
+  "Updated": "2021-08-13T08:27:36.959925+00:00",
   "BeforeCommittee": {
     "CommitteeCode": "J15",
     "FullName": "Joint Committee on Election Laws",
