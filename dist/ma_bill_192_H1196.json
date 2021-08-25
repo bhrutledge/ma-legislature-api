@@ -275,7 +275,7 @@
   "Attachments": [],
   "CommitteeRecommendations": [],
   "Amendments": [],
-  "Updated": "2021-08-24T08:23:19.524759+00:00",
+  "Updated": "2021-08-25T08:26:44.357163+00:00",
   "BeforeCommittee": {
     "CommitteeCode": "J11",
     "FullName": "Joint Committee on Financial Services",
@@ -305,6 +305,10 @@
       {
         "EventId": 3871,
         "Details": "http://malegislature.gov/api/Hearings/3871"
+      },
+      {
+        "EventId": 3914,
+        "Details": "http://malegislature.gov/api/Hearings/3914"
       }
     ],
     "HouseMembers": [
