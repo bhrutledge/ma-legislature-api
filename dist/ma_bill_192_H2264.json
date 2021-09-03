@@ -125,6 +125,12 @@
       "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/K_K1"
     },
     {
+      "Id": "M_K1",
+      "Name": "Meghan Kilcoyne",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/M_K1"
+    },
+    {
       "Id": "MPK1",
       "Name": "Michael P. Kushmerek",
       "Type": 1,
@@ -245,7 +251,7 @@
   "Attachments": [],
   "CommitteeRecommendations": [],
   "Amendments": [],
-  "Updated": "2021-09-02T08:27:23.057384+00:00",
+  "Updated": "2021-09-03T08:29:09.604028+00:00",
   "BeforeCommittee": {
     "CommitteeCode": "J16",
     "FullName": "Joint Committee on Public Health",

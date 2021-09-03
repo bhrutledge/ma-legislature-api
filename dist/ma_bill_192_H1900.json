@@ -65,6 +65,12 @@
       "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/N_E1"
     },
     {
+      "Id": "TFB1",
+      "Name": "Tricia Farley-Bouvier",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/TFB1"
+    },
+    {
       "Id": "DAF1",
       "Name": "Dylan A. Fernandes",
       "Type": 1,
@@ -293,7 +299,7 @@
   "Attachments": [],
   "CommitteeRecommendations": [],
   "Amendments": [],
-  "Updated": "2021-09-02T08:26:38.299211+00:00",
+  "Updated": "2021-09-03T08:28:22.558664+00:00",
   "BeforeCommittee": {
     "CommitteeCode": "J19",
     "FullName": "Joint Committee on the Judiciary",
