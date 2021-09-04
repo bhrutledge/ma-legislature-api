@@ -53,6 +53,12 @@
       "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/N_E1"
     },
     {
+      "Id": "N_H1",
+      "Name": "Natalie M. Higgins",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/N_H1"
+    },
+    {
       "Id": "JPL1",
       "Name": "Jack Patrick Lewis",
       "Type": 1,
@@ -77,7 +83,7 @@
   "Attachments": [],
   "CommitteeRecommendations": [],
   "Amendments": [],
-  "Updated": "2021-09-03T08:29:14.699114+00:00",
+  "Updated": "2021-09-04T08:32:01.570307+00:00",
   "BeforeCommittee": {
     "CommitteeCode": "J19",
     "FullName": "Joint Committee on the Judiciary",
