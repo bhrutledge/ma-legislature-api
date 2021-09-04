@@ -71,6 +71,12 @@
       "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/TLG1"
     },
     {
+      "Id": "N_H1",
+      "Name": "Natalie M. Higgins",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/N_H1"
+    },
+    {
       "Id": "MSK1",
       "Name": "Mary S. Keefe",
       "Type": 1,
@@ -137,7 +143,7 @@
   "Attachments": [],
   "CommitteeRecommendations": [],
   "Amendments": [],
-  "Updated": "2021-09-03T08:28:27.715217+00:00",
+  "Updated": "2021-09-04T08:31:13.149458+00:00",
   "BeforeCommittee": {
     "CommitteeCode": "J19",
     "FullName": "Joint Committee on the Judiciary",
