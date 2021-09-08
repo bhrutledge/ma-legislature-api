@@ -59,6 +59,12 @@
       "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/HLC0"
     },
     {
+      "Id": "M_C2",
+      "Name": "Michelle L. Ciccolo",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/M_C2"
+    },
+    {
       "Id": "M_C1",
       "Name": "Mike Connolly",
       "Type": 1,
@@ -281,7 +287,7 @@
   "Attachments": [],
   "CommitteeRecommendations": [],
   "Amendments": [],
-  "Updated": "2021-09-07T08:30:13.848471+00:00",
+  "Updated": "2021-09-08T08:29:37.568523+00:00",
   "BeforeCommittee": {
     "CommitteeCode": "J11",
     "FullName": "Joint Committee on Financial Services",
