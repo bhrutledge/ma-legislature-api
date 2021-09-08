@@ -53,6 +53,12 @@
       "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/E_C1"
     },
     {
+      "Id": "CAD1",
+      "Name": "Carol A. Doherty",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/CAD1"
+    },
+    {
       "Id": "M_D2",
       "Name": "Mindy Domb",
       "Type": 1,
@@ -299,7 +305,7 @@
   "Attachments": [],
   "CommitteeRecommendations": [],
   "Amendments": [],
-  "Updated": "2021-09-07T08:29:30.075533+00:00",
+  "Updated": "2021-09-08T08:28:55.541382+00:00",
   "BeforeCommittee": {
     "CommitteeCode": "J19",
     "FullName": "Joint Committee on the Judiciary",
