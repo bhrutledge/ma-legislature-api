@@ -69,6 +69,12 @@
       "Name": "Jack Patrick Lewis",
       "Type": 1,
       "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/JPL1"
+    },
+    {
+      "Id": "N_H1",
+      "Name": "Natalie M. Higgins",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/N_H1"
     }
   ],
   "BillHistory": "http://malegislature.gov/api/GeneralCourts/192/Documents/H2067/DocumentHistoryActions",
@@ -77,7 +83,7 @@
   "Attachments": [],
   "CommitteeRecommendations": [],
   "Amendments": [],
-  "Updated": "2021-09-08T08:29:21.412045+00:00",
+  "Updated": "2021-09-09T08:29:17.483861+00:00",
   "BeforeCommittee": {
     "CommitteeCode": "J18",
     "FullName": "Joint Committee on Mental Health, Substance Use and Recovery",
@@ -123,6 +129,18 @@
       {
         "EventId": 3887,
         "Details": "http://malegislature.gov/api/Hearings/3887"
+      },
+      {
+        "EventId": 3950,
+        "Details": "http://malegislature.gov/api/Hearings/3950"
+      },
+      {
+        "EventId": 3951,
+        "Details": "http://malegislature.gov/api/Hearings/3951"
+      },
+      {
+        "EventId": 3945,
+        "Details": "http://malegislature.gov/api/Hearings/3945"
       }
     ],
     "HouseMembers": [
