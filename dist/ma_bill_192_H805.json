@@ -551,7 +551,7 @@
   "Attachments": [],
   "CommitteeRecommendations": [],
   "Amendments": [],
-  "Updated": "2021-09-09T08:28:08.173950+00:00",
+  "Updated": "2021-09-10T08:29:31.579581+00:00",
   "BeforeCommittee": {
     "CommitteeCode": "J15",
     "FullName": "Joint Committee on Election Laws",
@@ -581,6 +581,10 @@
       {
         "EventId": 3803,
         "Details": "http://malegislature.gov/api/Hearings/3803"
+      },
+      {
+        "EventId": 3957,
+        "Details": "http://malegislature.gov/api/Hearings/3957"
       }
     ],
     "HouseMembers": [

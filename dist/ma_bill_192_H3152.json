@@ -375,6 +375,12 @@
       "Name": "Brian W. Murray",
       "Type": 1,
       "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/BWM1"
+    },
+    {
+      "Id": "N_H1",
+      "Name": "Natalie M. Higgins",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/N_H1"
     }
   ],
   "BillHistory": "http://malegislature.gov/api/GeneralCourts/192/Documents/H3152/DocumentHistoryActions",
@@ -383,7 +389,7 @@
   "Attachments": [],
   "CommitteeRecommendations": [],
   "Amendments": [],
-  "Updated": "2021-09-09T08:28:14.592127+00:00",
+  "Updated": "2021-09-10T08:29:38.326924+00:00",
   "BeforeCommittee": {
     "CommitteeCode": "J25",
     "FullName": "Joint Committee on State Administration and Regulatory Oversight",
@@ -423,12 +429,16 @@
         "Details": "http://malegislature.gov/api/Hearings/3841"
       },
       {
+        "EventId": 3949,
+        "Details": "http://malegislature.gov/api/Hearings/3949"
+      },
+      {
         "EventId": 3921,
         "Details": "http://malegislature.gov/api/Hearings/3921"
       },
       {
-        "EventId": 3949,
-        "Details": "http://malegislature.gov/api/Hearings/3949"
+        "EventId": 3958,
+        "Details": "http://malegislature.gov/api/Hearings/3958"
       }
     ],
     "HouseMembers": [
