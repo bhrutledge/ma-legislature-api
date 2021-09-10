@@ -262,7 +262,7 @@
     }
   ],
   "Amendments": [],
-  "Updated": "2021-09-09T08:28:11.399838+00:00",
+  "Updated": "2021-09-10T08:29:34.927413+00:00",
   "BeforeCommittee": {
     "CommitteeCode": "S30",
     "FullName": "Senate Committee on Ways and Means",
@@ -418,6 +418,10 @@
         {
           "EventId": 3803,
           "Details": "http://malegislature.gov/api/Hearings/3803"
+        },
+        {
+          "EventId": 3957,
+          "Details": "http://malegislature.gov/api/Hearings/3957"
         }
       ],
       "HouseMembers": [
