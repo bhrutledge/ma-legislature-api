@@ -563,7 +563,7 @@
   "Attachments": [],
   "CommitteeRecommendations": [],
   "Amendments": [],
-  "Updated": "2021-09-12T08:26:51.837488+00:00",
+  "Updated": "2021-09-13T08:23:51.698767+00:00",
   "BeforeCommittee": {
     "CommitteeCode": "J27",
     "FullName": "Joint Committee on Transportation",
@@ -571,11 +571,7 @@
     "Description": "It shall be the duty of the committee on Transportation to consider all matters concerning the development, operation, regulation and control of all means of transportation in the air, on land or in the water, the imposition of tolls on tunnels or bridges and such other matters as may be referred. ",
     "Branch": "Joint",
     "GeneralCourtNumber": 192,
-    "SenateChairperson": {
-      "GeneralCourtNumber": 192,
-      "MemberCode": "JAB0",
-      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/JAB0"
-    },
+    "SenateChairperson": null,
     "HouseChairperson": {
       "GeneralCourtNumber": 192,
       "MemberCode": "WMS1",
@@ -684,11 +680,6 @@
         "GeneralCourtNumber": 192,
         "MemberCode": "HLC0",
         "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/HLC0"
-      },
-      {
-        "GeneralCourtNumber": 192,
-        "MemberCode": "JAB0",
-        "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/JAB0"
       },
       {
         "GeneralCourtNumber": 192,
