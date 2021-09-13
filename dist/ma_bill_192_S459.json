@@ -262,7 +262,7 @@
     }
   ],
   "Amendments": [],
-  "Updated": "2021-09-12T08:27:04.422916+00:00",
+  "Updated": "2021-09-13T08:24:10.863465+00:00",
   "BeforeCommittee": {
     "CommitteeCode": "S30",
     "FullName": "Senate Committee on Ways and Means",
@@ -325,11 +325,6 @@
         "GeneralCourtNumber": 192,
         "MemberCode": "EPL0",
         "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/EPL0"
-      },
-      {
-        "GeneralCourtNumber": 192,
-        "MemberCode": "JAB0",
-        "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/JAB0"
       },
       {
         "GeneralCourtNumber": 192,
