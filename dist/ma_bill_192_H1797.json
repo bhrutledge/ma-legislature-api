@@ -143,6 +143,12 @@
       "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/RLR0"
     },
     {
+      "Id": "J_S2",
+      "Name": "Jon Santiago",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/J_S2"
+    },
+    {
       "Id": "C_T1",
       "Name": "Chynah Tyler",
       "Type": 1,
@@ -167,7 +173,7 @@
   "Attachments": [],
   "CommitteeRecommendations": [],
   "Amendments": [],
-  "Updated": "2021-09-13T08:25:02.830260+00:00",
+  "Updated": "2021-09-14T08:26:32.597216+00:00",
   "BeforeCommittee": {
     "CommitteeCode": "J19",
     "FullName": "Joint Committee on the Judiciary",

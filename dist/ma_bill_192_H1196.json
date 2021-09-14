@@ -257,6 +257,12 @@
       "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/DMR1"
     },
     {
+      "Id": "J_S2",
+      "Name": "Jon Santiago",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/J_S2"
+    },
+    {
       "Id": "DAS1",
       "Name": "Danillo A. Sena",
       "Type": 1,
@@ -287,7 +293,7 @@
   "Attachments": [],
   "CommitteeRecommendations": [],
   "Amendments": [],
-  "Updated": "2021-09-13T08:25:38.836968+00:00",
+  "Updated": "2021-09-14T08:27:02.546570+00:00",
   "BeforeCommittee": {
     "CommitteeCode": "J11",
     "FullName": "Joint Committee on Financial Services",
