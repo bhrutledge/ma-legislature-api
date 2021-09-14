@@ -149,6 +149,12 @@
       "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/DPL1"
     },
     {
+      "Id": "J_L1",
+      "Name": "Jay D. Livingstone",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/J_L1"
+    },
+    {
       "Id": "EAM1",
       "Name": "Elizabeth A. Malia",
       "Type": 1,
@@ -227,7 +233,7 @@
   "Attachments": [],
   "CommitteeRecommendations": [],
   "Amendments": [],
-  "Updated": "2021-09-13T08:25:31.537010+00:00",
+  "Updated": "2021-09-14T08:26:56.534107+00:00",
   "BeforeCommittee": {
     "CommitteeCode": "J22",
     "FullName": "Joint Committee on Public Safety and Homeland Security",
