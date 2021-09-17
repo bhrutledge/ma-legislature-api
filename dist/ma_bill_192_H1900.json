@@ -65,6 +65,12 @@
       "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/M_D2"
     },
     {
+      "Id": "MMD1",
+      "Name": "Michelle M. DuBois",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/MMD1"
+    },
+    {
       "Id": "N_E1",
       "Name": "Nika C. Elugardo",
       "Type": 1,
@@ -305,7 +311,7 @@
   "Attachments": [],
   "CommitteeRecommendations": [],
   "Amendments": [],
-  "Updated": "2021-09-16T08:31:54.842498+00:00",
+  "Updated": "2021-09-17T08:34:57.320612+00:00",
   "BeforeCommittee": {
     "CommitteeCode": "J19",
     "FullName": "Joint Committee on the Judiciary",
@@ -355,6 +361,10 @@
       {
         "EventId": 3953,
         "Details": "http://malegislature.gov/api/Hearings/3953"
+      },
+      {
+        "EventId": 3975,
+        "Details": "http://malegislature.gov/api/Hearings/3975"
       }
     ],
     "HouseMembers": [
