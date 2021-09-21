@@ -161,7 +161,7 @@
   "Attachments": [],
   "CommitteeRecommendations": [],
   "Amendments": [],
-  "Updated": "2021-09-20T08:23:07.939589+00:00",
+  "Updated": "2021-09-21T08:24:09.497595+00:00",
   "BeforeCommittee": {
     "CommitteeCode": "J28",
     "FullName": "Joint Committee on Housing",
@@ -211,6 +211,14 @@
       {
         "EventId": 3931,
         "Details": "http://malegislature.gov/api/Hearings/3931"
+      },
+      {
+        "EventId": 3982,
+        "Details": "http://malegislature.gov/api/Hearings/3982"
+      },
+      {
+        "EventId": 3983,
+        "Details": "http://malegislature.gov/api/Hearings/3983"
       }
     ],
     "HouseMembers": [

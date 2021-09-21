@@ -131,6 +131,12 @@
       "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/L_S1"
     },
     {
+      "Id": "DAS1",
+      "Name": "Danillo A. Sena",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/DAS1"
+    },
+    {
       "Id": "E_U1",
       "Name": "Erika Uyterhoeven",
       "Type": 1,
@@ -167,7 +173,7 @@
   "Attachments": [],
   "CommitteeRecommendations": [],
   "Amendments": [],
-  "Updated": "2021-09-20T08:22:51.923175+00:00",
+  "Updated": "2021-09-21T08:23:53.230526+00:00",
   "BeforeCommittee": {
     "CommitteeCode": "J15",
     "FullName": "Joint Committee on Election Laws",
