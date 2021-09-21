@@ -185,6 +185,12 @@
       "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/JPL1"
     },
     {
+      "Id": "J_L1",
+      "Name": "Jay D. Livingstone",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/J_L1"
+    },
+    {
       "Id": "JJM1",
       "Name": "John J. Mahoney",
       "Type": 1,
@@ -311,7 +317,7 @@
   "Attachments": [],
   "CommitteeRecommendations": [],
   "Amendments": [],
-  "Updated": "2021-09-20T08:21:58.822128+00:00",
+  "Updated": "2021-09-21T08:23:01.033178+00:00",
   "BeforeCommittee": {
     "CommitteeCode": "J19",
     "FullName": "Joint Committee on the Judiciary",
