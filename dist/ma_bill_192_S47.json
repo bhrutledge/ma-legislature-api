@@ -87,6 +87,12 @@
       "Name": "Patrick M. O'Connor",
       "Type": 1,
       "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/PMO"
+    },
+    {
+      "Id": "SCD0",
+      "Name": "Sonia Chang-Diaz",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/SCD0"
     }
   ],
   "BillHistory": "http://malegislature.gov/api/GeneralCourts/192/Documents/S47/DocumentHistoryActions",
@@ -106,7 +112,7 @@
     }
   ],
   "Amendments": [],
-  "Updated": "2021-09-21T08:22:08.519121+00:00",
+  "Updated": "2021-09-22T08:20:22.887566+00:00",
   "BeforeCommittee": {
     "CommitteeCode": "J19",
     "FullName": "Joint Committee on the Judiciary",
