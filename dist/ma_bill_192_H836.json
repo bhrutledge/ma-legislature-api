@@ -65,6 +65,12 @@
       "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/DMD1"
     },
     {
+      "Id": "PAD1",
+      "Name": "Patricia A. Duffy",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/PAD1"
+    },
+    {
       "Id": "DAF1",
       "Name": "Dylan A. Fernandes",
       "Type": 1,
@@ -173,7 +179,7 @@
   "Attachments": [],
   "CommitteeRecommendations": [],
   "Amendments": [],
-  "Updated": "2021-09-22T08:21:57.262846+00:00",
+  "Updated": "2021-09-23T08:22:02.492547+00:00",
   "BeforeCommittee": {
     "CommitteeCode": "J15",
     "FullName": "Joint Committee on Election Laws",
