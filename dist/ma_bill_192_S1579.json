@@ -239,7 +239,7 @@
   "Attachments": [],
   "CommitteeRecommendations": [],
   "Amendments": [],
-  "Updated": "2021-09-23T08:20:36.163811+00:00",
+  "Updated": "2021-09-24T08:25:34.443187+00:00",
   "BeforeCommittee": {
     "CommitteeCode": "J22",
     "FullName": "Joint Committee on Public Safety and Homeland Security",
@@ -273,6 +273,10 @@
       {
         "EventId": 3969,
         "Details": "http://malegislature.gov/api/Hearings/3969"
+      },
+      {
+        "EventId": 3990,
+        "Details": "http://malegislature.gov/api/Hearings/3990"
       }
     ],
     "HouseMembers": [
