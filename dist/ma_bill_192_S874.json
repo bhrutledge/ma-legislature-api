@@ -153,6 +153,18 @@
       "Name": "Alan Silvia",
       "Type": 1,
       "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/A_S1"
+    },
+    {
+      "Id": "D_D0",
+      "Name": "Diana DiZoglio",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/D_D0"
+    },
+    {
+      "Id": "RLR0",
+      "Name": "Rebecca L. Rausch",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/RLR0"
     }
   ],
   "BillHistory": "http://malegislature.gov/api/GeneralCourts/192/Documents/S874/DocumentHistoryActions",
@@ -161,7 +173,7 @@
   "Attachments": [],
   "CommitteeRecommendations": [],
   "Amendments": [],
-  "Updated": "2021-09-23T08:22:16.213080+00:00",
+  "Updated": "2021-09-24T08:27:26.565682+00:00",
   "BeforeCommittee": {
     "CommitteeCode": "J28",
     "FullName": "Joint Committee on Housing",
