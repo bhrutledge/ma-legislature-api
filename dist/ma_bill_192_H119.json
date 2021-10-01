@@ -53,7 +53,7 @@
   "Attachments": [],
   "CommitteeRecommendations": [],
   "Amendments": [],
-  "Updated": "2021-09-30T08:19:38.538468+00:00",
+  "Updated": "2021-10-01T08:22:36.501440+00:00",
   "BeforeCommittee": {
     "CommitteeCode": "J33",
     "FullName": "Joint Committee on Advanced Information Technology, the Internet and Cybersecurity",
@@ -75,6 +75,10 @@
       {
         "EventId": 3929,
         "Details": "http://malegislature.gov/api/Hearings/3929"
+      },
+      {
+        "EventId": 4007,
+        "Details": "http://malegislature.gov/api/Hearings/4007"
       }
     ],
     "HouseMembers": [
