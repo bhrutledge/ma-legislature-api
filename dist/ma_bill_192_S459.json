@@ -398,9 +398,338 @@
       "Branch": "Senate",
       "GeneralCourtNumber": 192,
       "Details": "http://malegislature.gov/api/GeneralCourts/192/Documents/S459/Branches/Senate/Amendments/1/"
+    },
+    {
+      "AmendmentNumber": "1",
+      "ParentBillNumber": "S2545",
+      "Branch": "Senate",
+      "GeneralCourtNumber": 192,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/Documents/S2545/Branches/Senate/Amendments/1/"
+    },
+    {
+      "AmendmentNumber": "2",
+      "ParentBillNumber": "S2545",
+      "Branch": "Senate",
+      "GeneralCourtNumber": 192,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/Documents/S2545/Branches/Senate/Amendments/2/"
+    },
+    {
+      "AmendmentNumber": "3",
+      "ParentBillNumber": "S2545",
+      "Branch": "Senate",
+      "GeneralCourtNumber": 192,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/Documents/S2545/Branches/Senate/Amendments/3/"
+    },
+    {
+      "AmendmentNumber": "4",
+      "ParentBillNumber": "S2545",
+      "Branch": "Senate",
+      "GeneralCourtNumber": 192,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/Documents/S2545/Branches/Senate/Amendments/4/"
+    },
+    {
+      "AmendmentNumber": "5",
+      "ParentBillNumber": "S2545",
+      "Branch": "Senate",
+      "GeneralCourtNumber": 192,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/Documents/S2545/Branches/Senate/Amendments/5/"
+    },
+    {
+      "AmendmentNumber": "6",
+      "ParentBillNumber": "S2545",
+      "Branch": "Senate",
+      "GeneralCourtNumber": 192,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/Documents/S2545/Branches/Senate/Amendments/6/"
+    },
+    {
+      "AmendmentNumber": "7",
+      "ParentBillNumber": "S2545",
+      "Branch": "Senate",
+      "GeneralCourtNumber": 192,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/Documents/S2545/Branches/Senate/Amendments/7/"
+    },
+    {
+      "AmendmentNumber": "8",
+      "ParentBillNumber": "S2545",
+      "Branch": "Senate",
+      "GeneralCourtNumber": 192,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/Documents/S2545/Branches/Senate/Amendments/8/"
+    },
+    {
+      "AmendmentNumber": "9",
+      "ParentBillNumber": "S2545",
+      "Branch": "Senate",
+      "GeneralCourtNumber": 192,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/Documents/S2545/Branches/Senate/Amendments/9/"
+    },
+    {
+      "AmendmentNumber": "10",
+      "ParentBillNumber": "S2545",
+      "Branch": "Senate",
+      "GeneralCourtNumber": 192,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/Documents/S2545/Branches/Senate/Amendments/10/"
+    },
+    {
+      "AmendmentNumber": "11",
+      "ParentBillNumber": "S2545",
+      "Branch": "Senate",
+      "GeneralCourtNumber": 192,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/Documents/S2545/Branches/Senate/Amendments/11/"
+    },
+    {
+      "AmendmentNumber": "12",
+      "ParentBillNumber": "S2545",
+      "Branch": "Senate",
+      "GeneralCourtNumber": 192,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/Documents/S2545/Branches/Senate/Amendments/12/"
+    },
+    {
+      "AmendmentNumber": "13",
+      "ParentBillNumber": "S2545",
+      "Branch": "Senate",
+      "GeneralCourtNumber": 192,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/Documents/S2545/Branches/Senate/Amendments/13/"
+    },
+    {
+      "AmendmentNumber": "14",
+      "ParentBillNumber": "S2545",
+      "Branch": "Senate",
+      "GeneralCourtNumber": 192,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/Documents/S2545/Branches/Senate/Amendments/14/"
+    },
+    {
+      "AmendmentNumber": "15",
+      "ParentBillNumber": "S2545",
+      "Branch": "Senate",
+      "GeneralCourtNumber": 192,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/Documents/S2545/Branches/Senate/Amendments/15/"
+    },
+    {
+      "AmendmentNumber": "16",
+      "ParentBillNumber": "S2545",
+      "Branch": "Senate",
+      "GeneralCourtNumber": 192,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/Documents/S2545/Branches/Senate/Amendments/16/"
+    },
+    {
+      "AmendmentNumber": "17",
+      "ParentBillNumber": "S2545",
+      "Branch": "Senate",
+      "GeneralCourtNumber": 192,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/Documents/S2545/Branches/Senate/Amendments/17/"
+    },
+    {
+      "AmendmentNumber": "18",
+      "ParentBillNumber": "S2545",
+      "Branch": "Senate",
+      "GeneralCourtNumber": 192,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/Documents/S2545/Branches/Senate/Amendments/18/"
+    },
+    {
+      "AmendmentNumber": "19",
+      "ParentBillNumber": "S2545",
+      "Branch": "Senate",
+      "GeneralCourtNumber": 192,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/Documents/S2545/Branches/Senate/Amendments/19/"
+    },
+    {
+      "AmendmentNumber": "20",
+      "ParentBillNumber": "S2545",
+      "Branch": "Senate",
+      "GeneralCourtNumber": 192,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/Documents/S2545/Branches/Senate/Amendments/20/"
+    },
+    {
+      "AmendmentNumber": "21",
+      "ParentBillNumber": "S2545",
+      "Branch": "Senate",
+      "GeneralCourtNumber": 192,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/Documents/S2545/Branches/Senate/Amendments/21/"
+    },
+    {
+      "AmendmentNumber": "22",
+      "ParentBillNumber": "S2545",
+      "Branch": "Senate",
+      "GeneralCourtNumber": 192,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/Documents/S2545/Branches/Senate/Amendments/22/"
+    },
+    {
+      "AmendmentNumber": "23",
+      "ParentBillNumber": "S2545",
+      "Branch": "Senate",
+      "GeneralCourtNumber": 192,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/Documents/S2545/Branches/Senate/Amendments/23/"
+    },
+    {
+      "AmendmentNumber": "24",
+      "ParentBillNumber": "S2545",
+      "Branch": "Senate",
+      "GeneralCourtNumber": 192,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/Documents/S2545/Branches/Senate/Amendments/24/"
+    },
+    {
+      "AmendmentNumber": "25",
+      "ParentBillNumber": "S2545",
+      "Branch": "Senate",
+      "GeneralCourtNumber": 192,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/Documents/S2545/Branches/Senate/Amendments/25/"
+    },
+    {
+      "AmendmentNumber": "26",
+      "ParentBillNumber": "S2545",
+      "Branch": "Senate",
+      "GeneralCourtNumber": 192,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/Documents/S2545/Branches/Senate/Amendments/26/"
+    },
+    {
+      "AmendmentNumber": "27",
+      "ParentBillNumber": "S2545",
+      "Branch": "Senate",
+      "GeneralCourtNumber": 192,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/Documents/S2545/Branches/Senate/Amendments/27/"
+    },
+    {
+      "AmendmentNumber": "28",
+      "ParentBillNumber": "S2545",
+      "Branch": "Senate",
+      "GeneralCourtNumber": 192,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/Documents/S2545/Branches/Senate/Amendments/28/"
+    },
+    {
+      "AmendmentNumber": "29",
+      "ParentBillNumber": "S2545",
+      "Branch": "Senate",
+      "GeneralCourtNumber": 192,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/Documents/S2545/Branches/Senate/Amendments/29/"
+    },
+    {
+      "AmendmentNumber": "30",
+      "ParentBillNumber": "S2545",
+      "Branch": "Senate",
+      "GeneralCourtNumber": 192,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/Documents/S2545/Branches/Senate/Amendments/30/"
+    },
+    {
+      "AmendmentNumber": "31",
+      "ParentBillNumber": "S2545",
+      "Branch": "Senate",
+      "GeneralCourtNumber": 192,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/Documents/S2545/Branches/Senate/Amendments/31/"
+    },
+    {
+      "AmendmentNumber": "32",
+      "ParentBillNumber": "S2545",
+      "Branch": "Senate",
+      "GeneralCourtNumber": 192,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/Documents/S2545/Branches/Senate/Amendments/32/"
+    },
+    {
+      "AmendmentNumber": "33",
+      "ParentBillNumber": "S2545",
+      "Branch": "Senate",
+      "GeneralCourtNumber": 192,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/Documents/S2545/Branches/Senate/Amendments/33/"
+    },
+    {
+      "AmendmentNumber": "34",
+      "ParentBillNumber": "S2545",
+      "Branch": "Senate",
+      "GeneralCourtNumber": 192,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/Documents/S2545/Branches/Senate/Amendments/34/"
+    },
+    {
+      "AmendmentNumber": "35",
+      "ParentBillNumber": "S2545",
+      "Branch": "Senate",
+      "GeneralCourtNumber": 192,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/Documents/S2545/Branches/Senate/Amendments/35/"
+    },
+    {
+      "AmendmentNumber": "36",
+      "ParentBillNumber": "S2545",
+      "Branch": "Senate",
+      "GeneralCourtNumber": 192,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/Documents/S2545/Branches/Senate/Amendments/36/"
+    },
+    {
+      "AmendmentNumber": "37",
+      "ParentBillNumber": "S2545",
+      "Branch": "Senate",
+      "GeneralCourtNumber": 192,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/Documents/S2545/Branches/Senate/Amendments/37/"
+    },
+    {
+      "AmendmentNumber": "38",
+      "ParentBillNumber": "S2545",
+      "Branch": "Senate",
+      "GeneralCourtNumber": 192,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/Documents/S2545/Branches/Senate/Amendments/38/"
+    },
+    {
+      "AmendmentNumber": "39",
+      "ParentBillNumber": "S2545",
+      "Branch": "Senate",
+      "GeneralCourtNumber": 192,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/Documents/S2545/Branches/Senate/Amendments/39/"
+    },
+    {
+      "AmendmentNumber": "40",
+      "ParentBillNumber": "S2545",
+      "Branch": "Senate",
+      "GeneralCourtNumber": 192,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/Documents/S2545/Branches/Senate/Amendments/40/"
+    },
+    {
+      "AmendmentNumber": "41",
+      "ParentBillNumber": "S2545",
+      "Branch": "Senate",
+      "GeneralCourtNumber": 192,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/Documents/S2545/Branches/Senate/Amendments/41/"
+    },
+    {
+      "AmendmentNumber": "42",
+      "ParentBillNumber": "S2545",
+      "Branch": "Senate",
+      "GeneralCourtNumber": 192,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/Documents/S2545/Branches/Senate/Amendments/42/"
+    },
+    {
+      "AmendmentNumber": "43",
+      "ParentBillNumber": "S2545",
+      "Branch": "Senate",
+      "GeneralCourtNumber": 192,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/Documents/S2545/Branches/Senate/Amendments/43/"
+    },
+    {
+      "AmendmentNumber": "44",
+      "ParentBillNumber": "S2545",
+      "Branch": "Senate",
+      "GeneralCourtNumber": 192,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/Documents/S2545/Branches/Senate/Amendments/44/"
+    },
+    {
+      "AmendmentNumber": "45",
+      "ParentBillNumber": "S2545",
+      "Branch": "Senate",
+      "GeneralCourtNumber": 192,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/Documents/S2545/Branches/Senate/Amendments/45/"
+    },
+    {
+      "AmendmentNumber": "46",
+      "ParentBillNumber": "S2545",
+      "Branch": "Senate",
+      "GeneralCourtNumber": 192,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/Documents/S2545/Branches/Senate/Amendments/46/"
+    },
+    {
+      "AmendmentNumber": "47",
+      "ParentBillNumber": "S2545",
+      "Branch": "Senate",
+      "GeneralCourtNumber": 192,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/Documents/S2545/Branches/Senate/Amendments/47/"
     }
   ],
-  "Updated": "2021-10-04T08:25:48.657419+00:00",
+  "Updated": "2021-10-05T08:26:25.738120+00:00",
   "BeforeCommittee": {},
   "ReportedOut": [
     {
