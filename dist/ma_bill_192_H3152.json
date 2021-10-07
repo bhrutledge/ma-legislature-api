@@ -389,7 +389,7 @@
   "Attachments": [],
   "CommitteeRecommendations": [],
   "Amendments": [],
-  "Updated": "2021-10-06T08:22:04.178657+00:00",
+  "Updated": "2021-10-07T08:20:21.086205+00:00",
   "BeforeCommittee": {
     "CommitteeCode": "J25",
     "FullName": "Joint Committee on State Administration and Regulatory Oversight",
@@ -443,6 +443,10 @@
       {
         "EventId": 3974,
         "Details": "http://malegislature.gov/api/Hearings/3974"
+      },
+      {
+        "EventId": 4019,
+        "Details": "http://malegislature.gov/api/Hearings/4019"
       }
     ],
     "HouseMembers": [
