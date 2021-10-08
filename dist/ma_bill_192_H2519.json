@@ -65,6 +65,12 @@
       "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/MAD1"
     },
     {
+      "Id": "M_D2",
+      "Name": "Mindy Domb",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/M_D2"
+    },
+    {
       "Id": "DMD1",
       "Name": "Daniel M. Donahue",
       "Type": 1,
@@ -233,7 +239,7 @@
   "Attachments": [],
   "CommitteeRecommendations": [],
   "Amendments": [],
-  "Updated": "2021-10-07T08:21:17.980250+00:00",
+  "Updated": "2021-10-08T08:23:40.186977+00:00",
   "BeforeCommittee": {
     "CommitteeCode": "J22",
     "FullName": "Joint Committee on Public Safety and Homeland Security",
