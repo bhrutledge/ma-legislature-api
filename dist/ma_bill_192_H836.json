@@ -53,6 +53,12 @@
       "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/M_C1"
     },
     {
+      "Id": "MAD1",
+      "Name": "Marcos A. Devers",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/MAD1"
+    },
+    {
       "Id": "M_D2",
       "Name": "Mindy Domb",
       "Type": 1,
@@ -179,7 +185,7 @@
   "Attachments": [],
   "CommitteeRecommendations": [],
   "Amendments": [],
-  "Updated": "2021-10-08T08:23:56.209375+00:00",
+  "Updated": "2021-10-09T08:28:30.730701+00:00",
   "BeforeCommittee": {
     "CommitteeCode": "J15",
     "FullName": "Joint Committee on Election Laws",

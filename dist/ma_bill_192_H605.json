@@ -665,7 +665,7 @@
   "Attachments": [],
   "CommitteeRecommendations": [],
   "Amendments": [],
-  "Updated": "2021-10-08T08:24:05.450318+00:00",
+  "Updated": "2021-10-09T08:28:42.735638+00:00",
   "BeforeCommittee": {
     "CommitteeCode": "J14",
     "FullName": "Joint Committee on Education",
@@ -707,6 +707,10 @@
       {
         "EventId": 3963,
         "Details": "http://malegislature.gov/api/Hearings/3963"
+      },
+      {
+        "EventId": 4023,
+        "Details": "http://malegislature.gov/api/Hearings/4023"
       }
     ],
     "HouseMembers": [
