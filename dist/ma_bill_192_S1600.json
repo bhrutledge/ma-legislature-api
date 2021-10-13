@@ -27,6 +27,12 @@
       "Name": "Joanne M. Comerford",
       "Type": 1,
       "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/JMC0"
+    },
+    {
+      "Id": "JPL1",
+      "Name": "Jack Patrick Lewis",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/JPL1"
     }
   ],
   "BillHistory": "http://malegislature.gov/api/GeneralCourts/192/Documents/S1600/DocumentHistoryActions",
@@ -35,7 +41,7 @@
   "Attachments": [],
   "CommitteeRecommendations": [],
   "Amendments": [],
-  "Updated": "2021-10-12T08:27:12.871554+00:00",
+  "Updated": "2021-10-13T08:35:12.006400+00:00",
   "BeforeCommittee": {
     "CommitteeCode": "J22",
     "FullName": "Joint Committee on Public Safety and Homeland Security",
