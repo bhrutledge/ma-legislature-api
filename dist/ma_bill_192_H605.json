@@ -377,6 +377,12 @@
       "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/M_K1"
     },
     {
+      "Id": "KPL1",
+      "Name": "Kathleen R. LaNatra",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/KPL1"
+    },
+    {
       "Id": "JJL2",
       "Name": "John J. Lawn, Jr.",
       "Type": 1,
@@ -665,7 +671,7 @@
   "Attachments": [],
   "CommitteeRecommendations": [],
   "Amendments": [],
-  "Updated": "2021-10-14T08:32:03.541129+00:00",
+  "Updated": "2021-10-15T08:30:49.545199+00:00",
   "BeforeCommittee": {
     "CommitteeCode": "J14",
     "FullName": "Joint Committee on Education",
