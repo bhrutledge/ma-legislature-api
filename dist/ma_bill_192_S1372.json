@@ -113,7 +113,7 @@
   "Attachments": [],
   "CommitteeRecommendations": [],
   "Amendments": [],
-  "Updated": "2021-10-19T08:27:01.246925+00:00",
+  "Updated": "2021-10-20T08:30:47.891479+00:00",
   "BeforeCommittee": {
     "CommitteeCode": "J16",
     "FullName": "Joint Committee on Public Health",
@@ -179,6 +179,10 @@
       {
         "EventId": 4043,
         "Details": "http://malegislature.gov/api/Hearings/4043"
+      },
+      {
+        "EventId": 4052,
+        "Details": "http://malegislature.gov/api/Hearings/4052"
       }
     ],
     "HouseMembers": [
