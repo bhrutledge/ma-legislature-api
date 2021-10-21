@@ -497,6 +497,12 @@
       "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/MJM2"
     },
     {
+      "Id": "BWM1",
+      "Name": "Brian W. Murray",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/BWM1"
+    },
+    {
       "Id": "TTN1",
       "Name": "Tram T. Nguyen",
       "Type": 1,
@@ -671,7 +677,7 @@
   "Attachments": [],
   "CommitteeRecommendations": [],
   "Amendments": [],
-  "Updated": "2021-10-20T08:31:08.815952+00:00",
+  "Updated": "2021-10-21T08:33:11.633670+00:00",
   "BeforeCommittee": {
     "CommitteeCode": "J14",
     "FullName": "Joint Committee on Education",
