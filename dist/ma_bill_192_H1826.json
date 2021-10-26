@@ -195,6 +195,12 @@
       "Name": "Sal N. DiDomenico",
       "Type": 1,
       "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/SND0"
+    },
+    {
+      "Id": "A_G0",
+      "Name": "Adam Gomez",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/A_G0"
     }
   ],
   "BillHistory": "http://malegislature.gov/api/GeneralCourts/192/Documents/H1826/DocumentHistoryActions",
@@ -203,7 +209,7 @@
   "Attachments": [],
   "CommitteeRecommendations": [],
   "Amendments": [],
-  "Updated": "2021-10-25T08:36:59.487610+00:00",
+  "Updated": "2021-10-26T08:32:48.342055+00:00",
   "BeforeCommittee": {
     "CommitteeCode": "J19",
     "FullName": "Joint Committee on the Judiciary",
