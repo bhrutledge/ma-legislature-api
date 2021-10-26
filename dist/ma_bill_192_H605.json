@@ -641,6 +641,12 @@
       "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/PFT1"
     },
     {
+      "Id": "C_T1",
+      "Name": "Chynah Tyler",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/C_T1"
+    },
+    {
       "Id": "S_G2",
       "Name": "Steven Ultrino",
       "Type": 1,
@@ -677,7 +683,7 @@
   "Attachments": [],
   "CommitteeRecommendations": [],
   "Amendments": [],
-  "Updated": "2021-10-25T08:38:05.876737+00:00",
+  "Updated": "2021-10-26T08:33:50.451121+00:00",
   "BeforeCommittee": {
     "CommitteeCode": "J14",
     "FullName": "Joint Committee on Education",
