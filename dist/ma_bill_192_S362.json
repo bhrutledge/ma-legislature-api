@@ -297,6 +297,18 @@
       "Name": "Adam Gomez",
       "Type": 1,
       "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/A_G0"
+    },
+    {
+      "Id": "KPL1",
+      "Name": "Kathleen R. LaNatra",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/KPL1"
+    },
+    {
+      "Id": "BWM1",
+      "Name": "Brian W. Murray",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/BWM1"
     }
   ],
   "BillHistory": "http://malegislature.gov/api/GeneralCourts/192/Documents/S362/DocumentHistoryActions",
@@ -305,7 +317,7 @@
   "Attachments": [],
   "CommitteeRecommendations": [],
   "Amendments": [],
-  "Updated": "2021-10-29T08:25:31.572315+00:00",
+  "Updated": "2021-10-30T08:26:05.664182+00:00",
   "BeforeCommittee": {
     "CommitteeCode": "J14",
     "FullName": "Joint Committee on Education",
