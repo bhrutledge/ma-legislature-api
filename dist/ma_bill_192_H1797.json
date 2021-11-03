@@ -119,6 +119,12 @@
       "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/MSK1"
     },
     {
+      "Id": "JFK0",
+      "Name": "John F. Keenan",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/JFK0"
+    },
+    {
       "Id": "K_K1",
       "Name": "Kay Khan",
       "Type": 1,
@@ -173,7 +179,7 @@
   "Attachments": [],
   "CommitteeRecommendations": [],
   "Amendments": [],
-  "Updated": "2021-11-02T08:23:26.603090+00:00",
+  "Updated": "2021-11-03T08:23:13.315777+00:00",
   "BeforeCommittee": {
     "CommitteeCode": "J19",
     "FullName": "Joint Committee on the Judiciary",
@@ -239,6 +245,10 @@
       {
         "EventId": 4057,
         "Details": "http://malegislature.gov/api/Hearings/4057"
+      },
+      {
+        "EventId": 4082,
+        "Details": "http://malegislature.gov/api/Hearings/4082"
       }
     ],
     "HouseMembers": [
