@@ -53,6 +53,12 @@
       "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/SCD0"
     },
     {
+      "Id": "JMC0",
+      "Name": "Joanne M. Comerford",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/JMC0"
+    },
+    {
       "Id": "M_C1",
       "Name": "Mike Connolly",
       "Type": 1,
@@ -179,7 +185,7 @@
   "Attachments": [],
   "CommitteeRecommendations": [],
   "Amendments": [],
-  "Updated": "2021-11-07T08:23:59.595569+00:00",
+  "Updated": "2021-11-09T08:25:02.078722+00:00",
   "BeforeCommittee": {
     "CommitteeCode": "J19",
     "FullName": "Joint Committee on the Judiciary",
