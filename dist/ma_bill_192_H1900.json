@@ -53,6 +53,12 @@
       "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/E_C1"
     },
     {
+      "Id": "MCD1",
+      "Name": "Marjorie C. Decker",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/MCD1"
+    },
+    {
       "Id": "CAD1",
       "Name": "Carol A. Doherty",
       "Type": 1,
@@ -323,7 +329,7 @@
   "Attachments": [],
   "CommitteeRecommendations": [],
   "Amendments": [],
-  "Updated": "2021-11-09T08:24:45.156917+00:00",
+  "Updated": "2021-11-11T08:25:40.597018+00:00",
   "BeforeCommittee": {
     "CommitteeCode": "J19",
     "FullName": "Joint Committee on the Judiciary",
@@ -393,6 +399,10 @@
       {
         "EventId": 4082,
         "Details": "http://malegislature.gov/api/Hearings/4082"
+      },
+      {
+        "EventId": 4090,
+        "Details": "http://malegislature.gov/api/Hearings/4090"
       }
     ],
     "HouseMembers": [
