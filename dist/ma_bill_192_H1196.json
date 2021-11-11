@@ -293,7 +293,7 @@
   "Attachments": [],
   "CommitteeRecommendations": [],
   "Amendments": [],
-  "Updated": "2021-11-09T08:25:32.396257+00:00",
+  "Updated": "2021-11-11T08:26:28.607824+00:00",
   "BeforeCommittee": {
     "CommitteeCode": "J11",
     "FullName": "Joint Committee on Financial Services",
@@ -381,11 +381,6 @@
       },
       {
         "GeneralCourtNumber": 192,
-        "MemberCode": "FJB1",
-        "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/FJB1"
-      },
-      {
-        "GeneralCourtNumber": 192,
         "MemberCode": "JMM1",
         "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/JMM1"
       },
@@ -403,6 +398,11 @@
         "GeneralCourtNumber": 192,
         "MemberCode": "RMH1",
         "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/RMH1"
+      },
+      {
+        "GeneralCourtNumber": 192,
+        "MemberCode": "S_D1",
+        "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/S_D1"
       },
       {
         "GeneralCourtNumber": 192,
