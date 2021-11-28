@@ -299,6 +299,12 @@
       "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/J_S2"
     },
     {
+      "Id": "AJS1",
+      "Name": "Adam J. Scanlon",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/AJS1"
+    },
+    {
       "Id": "DAS1",
       "Name": "Danillo A. Sena",
       "Type": 1,
@@ -346,7 +352,7 @@
     }
   ],
   "Amendments": [],
-  "Updated": "2021-11-27T08:23:20.672886+00:00",
+  "Updated": "2021-11-28T08:23:20.940228+00:00",
   "BeforeCommittee": {
     "CommitteeCode": "J19",
     "FullName": "Joint Committee on the Judiciary",
