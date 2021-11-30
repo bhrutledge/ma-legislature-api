@@ -249,9 +249,20 @@
   "LegislationTypeName": "Bill",
   "RollCalls": [],
   "Attachments": [],
-  "CommitteeRecommendations": [],
+  "CommitteeRecommendations": [
+    {
+      "Action": "Favorable",
+      "FiscalAmounts": [],
+      "Committee": {
+        "CommitteeCode": "J16",
+        "GeneralCourtNumber": 192,
+        "Details": "http://malegislature.gov/api/GeneralCourts/192/Committees/J16"
+      },
+      "Votes": []
+    }
+  ],
   "Amendments": [],
-  "Updated": "2021-11-29T08:27:16.946112+00:00",
+  "Updated": "2021-11-30T08:25:22.483401+00:00",
   "BeforeCommittee": {
     "CommitteeCode": "J16",
     "FullName": "Joint Committee on Public Health",

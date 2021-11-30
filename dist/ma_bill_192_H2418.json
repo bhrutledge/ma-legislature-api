@@ -525,6 +525,12 @@
       "Name": "William J. Driscoll, Jr.",
       "Type": 1,
       "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/WJD1"
+    },
+    {
+      "Id": "BLW1",
+      "Name": "Bud L. Williams",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/BLW1"
     }
   ],
   "BillHistory": "http://malegislature.gov/api/GeneralCourts/192/Documents/H2418/DocumentHistoryActions",
@@ -533,7 +539,7 @@
   "Attachments": [],
   "CommitteeRecommendations": [],
   "Amendments": [],
-  "Updated": "2021-11-29T08:25:36.889079+00:00",
+  "Updated": "2021-11-30T08:23:42.335392+00:00",
   "BeforeCommittee": {
     "CommitteeCode": "J22",
     "FullName": "Joint Committee on Public Safety and Homeland Security",
