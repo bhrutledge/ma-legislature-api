@@ -93,6 +93,12 @@
       "Name": "Sonia Chang-Diaz",
       "Type": 1,
       "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/SCD0"
+    },
+    {
+      "Id": "AJS1",
+      "Name": "Adam J. Scanlon",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/AJS1"
     }
   ],
   "BillHistory": "http://malegislature.gov/api/GeneralCourts/192/Documents/S47/DocumentHistoryActions",
@@ -112,7 +118,7 @@
     }
   ],
   "Amendments": [],
-  "Updated": "2021-11-30T08:23:32.899411+00:00",
+  "Updated": "2021-12-01T08:24:35.717731+00:00",
   "BeforeCommittee": {
     "CommitteeCode": "J19",
     "FullName": "Joint Committee on the Judiciary",
@@ -190,6 +196,10 @@
       {
         "EventId": 4100,
         "Details": "http://malegislature.gov/api/Hearings/4100"
+      },
+      {
+        "EventId": 4115,
+        "Details": "http://malegislature.gov/api/Hearings/4115"
       }
     ],
     "HouseMembers": [
