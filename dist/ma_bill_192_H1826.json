@@ -167,6 +167,12 @@
       "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/L_S1"
     },
     {
+      "Id": "J_S2",
+      "Name": "Jon Santiago",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/J_S2"
+    },
+    {
       "Id": "DAS1",
       "Name": "Danillo A. Sena",
       "Type": 1,
@@ -209,7 +215,7 @@
   "Attachments": [],
   "CommitteeRecommendations": [],
   "Amendments": [],
-  "Updated": "2021-12-03T08:24:56.446901+00:00",
+  "Updated": "2021-12-04T08:25:19.147506+00:00",
   "BeforeCommittee": {
     "CommitteeCode": "J19",
     "FullName": "Joint Committee on the Judiciary",
