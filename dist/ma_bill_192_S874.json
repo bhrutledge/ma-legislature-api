@@ -165,6 +165,18 @@
       "Name": "Rebecca L. Rausch",
       "Type": 1,
       "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/RLR0"
+    },
+    {
+      "Id": "A_G0",
+      "Name": "Adam Gomez",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/A_G0"
+    },
+    {
+      "Id": "MDB0",
+      "Name": "Michael D. Brady",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/MDB0"
     }
   ],
   "BillHistory": "http://malegislature.gov/api/GeneralCourts/192/Documents/S874/DocumentHistoryActions",
@@ -173,7 +185,7 @@
   "Attachments": [],
   "CommitteeRecommendations": [],
   "Amendments": [],
-  "Updated": "2021-12-09T08:26:58.391094+00:00",
+  "Updated": "2021-12-10T08:30:30.818648+00:00",
   "BeforeCommittee": {
     "CommitteeCode": "J28",
     "FullName": "Joint Committee on Housing",
