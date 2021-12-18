@@ -111,6 +111,12 @@
       "Name": "Natalie M. Higgins",
       "Type": 1,
       "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/N_H1"
+    },
+    {
+      "Id": "M_D2",
+      "Name": "Mindy Domb",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/M_D2"
     }
   ],
   "BillHistory": "http://malegislature.gov/api/GeneralCourts/192/Documents/S673/DocumentHistoryActions",
@@ -119,7 +125,7 @@
   "Attachments": [],
   "CommitteeRecommendations": [],
   "Amendments": [],
-  "Updated": "2021-12-17T08:25:45.917764+00:00",
+  "Updated": "2021-12-18T08:25:45.444167+00:00",
   "BeforeCommittee": {
     "CommitteeCode": "J11",
     "FullName": "Joint Committee on Financial Services",

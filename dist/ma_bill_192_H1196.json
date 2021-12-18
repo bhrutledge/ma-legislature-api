@@ -71,6 +71,12 @@
       "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/M_C1"
     },
     {
+      "Id": "M_D2",
+      "Name": "Mindy Domb",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/M_D2"
+    },
+    {
       "Id": "PAD1",
       "Name": "Patricia A. Duffy",
       "Type": 1,
@@ -299,7 +305,7 @@
   "Attachments": [],
   "CommitteeRecommendations": [],
   "Amendments": [],
-  "Updated": "2021-12-17T08:25:43.475871+00:00",
+  "Updated": "2021-12-18T08:25:42.922401+00:00",
   "BeforeCommittee": {
     "CommitteeCode": "J11",
     "FullName": "Joint Committee on Financial Services",
