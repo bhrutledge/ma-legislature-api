@@ -177,6 +177,12 @@
       "Name": "Michael D. Brady",
       "Type": 1,
       "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/MDB0"
+    },
+    {
+      "Id": "AMG0",
+      "Name": "Anne M. Gobi",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/AMG0"
     }
   ],
   "BillHistory": "http://malegislature.gov/api/GeneralCourts/192/Documents/S874/DocumentHistoryActions",
@@ -185,7 +191,7 @@
   "Attachments": [],
   "CommitteeRecommendations": [],
   "Amendments": [],
-  "Updated": "2021-12-22T08:26:22.999838+00:00",
+  "Updated": "2021-12-23T08:27:46.448439+00:00",
   "BeforeCommittee": {
     "CommitteeCode": "J28",
     "FullName": "Joint Committee on Housing",
