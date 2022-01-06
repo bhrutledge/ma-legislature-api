@@ -221,6 +221,12 @@
       "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/CMM1"
     },
     {
+      "Id": "CAM2",
+      "Name": "Christina A. Minicucci",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/CAM2"
+    },
+    {
       "Id": "L_M2",
       "Name": "Liz Miranda",
       "Type": 1,
@@ -329,7 +335,7 @@
   "Attachments": [],
   "CommitteeRecommendations": [],
   "Amendments": [],
-  "Updated": "2022-01-05T08:26:17.286328+00:00",
+  "Updated": "2022-01-06T08:30:49.488926+00:00",
   "BeforeCommittee": {
     "CommitteeCode": "J19",
     "FullName": "Joint Committee on the Judiciary",
