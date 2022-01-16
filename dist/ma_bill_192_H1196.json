@@ -239,6 +239,12 @@
       "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/TTN1"
     },
     {
+      "Id": "JRO1",
+      "Name": "Jacob R. Oliveira",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/JRO1"
+    },
+    {
       "Id": "SCO1",
       "Name": "Steven C. Owens",
       "Type": 1,
@@ -305,7 +311,7 @@
   "Attachments": [],
   "CommitteeRecommendations": [],
   "Amendments": [],
-  "Updated": "2022-01-15T08:27:18.691272+00:00",
+  "Updated": "2022-01-16T08:24:26.766537+00:00",
   "BeforeCommittee": {
     "CommitteeCode": "J11",
     "FullName": "Joint Committee on Financial Services",
