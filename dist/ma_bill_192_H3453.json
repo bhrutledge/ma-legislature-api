@@ -209,6 +209,12 @@
       "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/S_G1"
     },
     {
+      "Id": "CLG1",
+      "Name": "Carmine Lawrence Gentile",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/CLG1"
+    },
+    {
       "Id": "C_G1",
       "Name": "Carlos Gonz\u00e1lez",
       "Type": 1,
@@ -287,7 +293,7 @@
   "Attachments": [],
   "CommitteeRecommendations": [],
   "Amendments": [],
-  "Updated": "2022-01-17T08:25:48.478216+00:00",
+  "Updated": "2022-01-18T08:30:29.398797+00:00",
   "BeforeCommittee": {
     "CommitteeCode": "J27",
     "FullName": "Joint Committee on Transportation",
