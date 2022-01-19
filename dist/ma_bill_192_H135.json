@@ -358,7 +358,7 @@
     }
   ],
   "Amendments": [],
-  "Updated": "2022-01-18T08:30:34.684776+00:00",
+  "Updated": "2022-01-19T08:23:24.420744+00:00",
   "BeforeCommittee": {
     "CommitteeCode": "J19",
     "FullName": "Joint Committee on the Judiciary",
@@ -444,6 +444,10 @@
       {
         "EventId": 4125,
         "Details": "http://malegislature.gov/api/Hearings/4125"
+      },
+      {
+        "EventId": 4175,
+        "Details": "http://malegislature.gov/api/Hearings/4175"
       }
     ],
     "HouseMembers": [
