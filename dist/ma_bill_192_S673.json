@@ -117,6 +117,12 @@
       "Name": "Mindy Domb",
       "Type": 1,
       "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/M_D2"
+    },
+    {
+      "Id": "SLM0",
+      "Name": "Susan L. Moran",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/SLM0"
     }
   ],
   "BillHistory": "http://malegislature.gov/api/GeneralCourts/192/Documents/S673/DocumentHistoryActions",
@@ -125,7 +131,7 @@
   "Attachments": [],
   "CommitteeRecommendations": [],
   "Amendments": [],
-  "Updated": "2022-01-21T08:24:16.758358+00:00",
+  "Updated": "2022-01-22T08:23:17.029730+00:00",
   "BeforeCommittee": {
     "CommitteeCode": "J11",
     "FullName": "Joint Committee on Financial Services",

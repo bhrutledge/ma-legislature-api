@@ -1,5 +1,5 @@
 {
-  "Title": "An Act relative to inmate telephone calls\n",
+  "Title": "An Act relative to inmate telephone calls\r\n",
   "BillNumber": "S1559",
   "DocketNumber": "SD800",
   "GeneralCourtNumber": 192,
@@ -137,7 +137,7 @@
   "Attachments": [],
   "CommitteeRecommendations": [],
   "Amendments": [],
-  "Updated": "2022-01-21T08:23:37.831283+00:00",
+  "Updated": "2022-01-22T08:22:37.438658+00:00",
   "BeforeCommittee": {
     "CommitteeCode": "J22",
     "FullName": "Joint Committee on Public Safety and Homeland Security",
