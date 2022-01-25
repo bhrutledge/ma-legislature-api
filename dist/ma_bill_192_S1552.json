@@ -71,6 +71,12 @@
       "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/JBE0"
     },
     {
+      "Id": "N_E1",
+      "Name": "Nika C. Elugardo",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/N_E1"
+    },
+    {
       "Id": "AGH0",
       "Name": "Adam G. Hinds",
       "Type": 1,
@@ -107,7 +113,7 @@
   "Attachments": [],
   "CommitteeRecommendations": [],
   "Amendments": [],
-  "Updated": "2022-01-24T08:24:52.253360+00:00",
+  "Updated": "2022-01-25T08:24:37.797832+00:00",
   "BeforeCommittee": {
     "CommitteeCode": "J22",
     "FullName": "Joint Committee on Public Safety and Homeland Security",
