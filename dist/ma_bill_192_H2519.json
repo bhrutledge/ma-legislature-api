@@ -173,6 +173,12 @@
       "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/PWM1"
     },
     {
+      "Id": "CAM2",
+      "Name": "Christina A. Minicucci",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/CAM2"
+    },
+    {
       "Id": "L_M2",
       "Name": "Liz Miranda",
       "Type": 1,
@@ -239,7 +245,7 @@
   "Attachments": [],
   "CommitteeRecommendations": [],
   "Amendments": [],
-  "Updated": "2022-01-28T08:29:24.574166+00:00",
+  "Updated": "2022-01-29T08:25:36.303129+00:00",
   "BeforeCommittee": {
     "CommitteeCode": "J22",
     "FullName": "Joint Committee on Public Safety and Homeland Security",

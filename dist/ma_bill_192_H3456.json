@@ -119,6 +119,12 @@
       "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/R_C1"
     },
     {
+      "Id": "E_C1",
+      "Name": "Edward F. Coppinger",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/E_C1"
+    },
+    {
       "Id": "JJC0",
       "Name": "John J. Cronin",
       "Type": 1,
@@ -563,7 +569,7 @@
   "Attachments": [],
   "CommitteeRecommendations": [],
   "Amendments": [],
-  "Updated": "2022-01-28T08:27:50.546801+00:00",
+  "Updated": "2022-01-29T08:23:57.410377+00:00",
   "BeforeCommittee": {
     "CommitteeCode": "J27",
     "FullName": "Joint Committee on Transportation",
