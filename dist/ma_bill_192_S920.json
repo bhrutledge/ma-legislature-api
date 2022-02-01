@@ -81,6 +81,12 @@
       "Name": "Michael J. Barrett",
       "Type": 1,
       "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/MJB0"
+    },
+    {
+      "Id": "CSC0",
+      "Name": "Cynthia Stone Creem",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/CSC0"
     }
   ],
   "BillHistory": "http://malegislature.gov/api/GeneralCourts/192/Documents/S920/DocumentHistoryActions",
@@ -89,7 +95,7 @@
   "Attachments": [],
   "CommitteeRecommendations": [],
   "Amendments": [],
-  "Updated": "2022-01-31T08:25:02.061914+00:00",
+  "Updated": "2022-02-01T08:26:05.725503+00:00",
   "BeforeCommittee": {
     "CommitteeCode": "J19",
     "FullName": "Joint Committee on the Judiciary",
