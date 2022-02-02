@@ -309,156 +309,169 @@
   "LegislationTypeName": "Bill",
   "RollCalls": [],
   "Attachments": [],
-  "CommitteeRecommendations": [],
+  "CommitteeRecommendations": [
+    {
+      "Action": "Accompanied",
+      "FiscalAmounts": [],
+      "Committee": {
+        "CommitteeCode": "J11",
+        "GeneralCourtNumber": 192,
+        "Details": "http://malegislature.gov/api/GeneralCourts/192/Committees/J11"
+      },
+      "Votes": []
+    }
+  ],
   "Amendments": [],
-  "Updated": "2022-02-01T08:26:31.703647+00:00",
-  "BeforeCommittee": {
-    "CommitteeCode": "J11",
-    "FullName": "Joint Committee on Financial Services",
-    "ShortName": "Financial Services (J)",
-    "Description": "It shall be the duty of the committee on Financial Services to consider all matters concerning banks, banking institutions, credit unions, insurance companies, insurance, including motor vehicle insurance, small loans, and such other matters as may be referred. ",
-    "Branch": "Joint",
-    "GeneralCourtNumber": 192,
-    "SenateChairperson": {
+  "Updated": "2022-02-02T08:25:45.634970+00:00",
+  "BeforeCommittee": {},
+  "ReportedOut": [
+    {
+      "CommitteeCode": "J11",
+      "FullName": "Joint Committee on Financial Services",
+      "ShortName": "Financial Services (J)",
+      "Description": "It shall be the duty of the committee on Financial Services to consider all matters concerning banks, banking institutions, credit unions, insurance companies, insurance, including motor vehicle insurance, small loans, and such other matters as may be referred. ",
+      "Branch": "Joint",
       "GeneralCourtNumber": 192,
-      "MemberCode": "BPC0",
-      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/BPC0"
-    },
-    "HouseChairperson": {
-      "GeneralCourtNumber": 192,
-      "MemberCode": "JMM1",
-      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/JMM1"
-    },
-    "Hearings": [
-      {
-        "EventId": 3705,
-        "Details": "http://malegislature.gov/api/Hearings/3705"
-      },
-      {
-        "EventId": 3812,
-        "Details": "http://malegislature.gov/api/Hearings/3812"
-      },
-      {
-        "EventId": 3871,
-        "Details": "http://malegislature.gov/api/Hearings/3871"
-      },
-      {
-        "EventId": 3914,
-        "Details": "http://malegislature.gov/api/Hearings/3914"
-      },
-      {
-        "EventId": 3966,
-        "Details": "http://malegislature.gov/api/Hearings/3966"
-      },
-      {
-        "EventId": 3991,
-        "Details": "http://malegislature.gov/api/Hearings/3991"
-      },
-      {
-        "EventId": 3998,
-        "Details": "http://malegislature.gov/api/Hearings/3998"
-      },
-      {
-        "EventId": 4025,
-        "Details": "http://malegislature.gov/api/Hearings/4025"
-      },
-      {
-        "EventId": 4034,
-        "Details": "http://malegislature.gov/api/Hearings/4034"
-      },
-      {
-        "EventId": 4064,
-        "Details": "http://malegislature.gov/api/Hearings/4064"
-      },
-      {
-        "EventId": 4111,
-        "Details": "http://malegislature.gov/api/Hearings/4111"
-      }
-    ],
-    "HouseMembers": [
-      {
-        "GeneralCourtNumber": 192,
-        "MemberCode": "SPK1",
-        "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/SPK1"
-      },
-      {
-        "GeneralCourtNumber": 192,
-        "MemberCode": "M_K1",
-        "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/M_K1"
-      },
-      {
-        "GeneralCourtNumber": 192,
-        "MemberCode": "SCO1",
-        "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/SCO1"
-      },
-      {
-        "GeneralCourtNumber": 192,
-        "MemberCode": "BJA1",
-        "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/BJA1"
-      },
-      {
-        "GeneralCourtNumber": 192,
-        "MemberCode": "DAL1",
-        "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/DAL1"
-      },
-      {
-        "GeneralCourtNumber": 192,
-        "MemberCode": "JMM1",
-        "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/JMM1"
-      },
-      {
-        "GeneralCourtNumber": 192,
-        "MemberCode": "KLG1",
-        "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/KLG1"
-      },
-      {
-        "GeneralCourtNumber": 192,
-        "MemberCode": "NAG1",
-        "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/NAG1"
-      },
-      {
-        "GeneralCourtNumber": 192,
-        "MemberCode": "RMH1",
-        "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/RMH1"
-      },
-      {
-        "GeneralCourtNumber": 192,
-        "MemberCode": "S_D1",
-        "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/S_D1"
-      },
-      {
-        "GeneralCourtNumber": 192,
-        "MemberCode": "WSP1",
-        "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/WSP1"
-      }
-    ],
-    "SenateMembers": [
-      {
+      "SenateChairperson": {
         "GeneralCourtNumber": 192,
         "MemberCode": "BPC0",
         "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/BPC0"
       },
-      {
+      "HouseChairperson": {
         "GeneralCourtNumber": 192,
-        "MemberCode": "EDJ0",
-        "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/EDJ0"
+        "MemberCode": "JMM1",
+        "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/JMM1"
       },
-      {
-        "GeneralCourtNumber": 192,
-        "MemberCode": "MOM0",
-        "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/MOM0"
-      },
-      {
-        "GeneralCourtNumber": 192,
-        "MemberCode": "RCF0",
-        "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/RCF0"
-      },
-      {
-        "GeneralCourtNumber": 192,
-        "MemberCode": "SLM0",
-        "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/SLM0"
-      }
-    ]
-  },
-  "ReportedOut": []
+      "Hearings": [
+        {
+          "EventId": 3705,
+          "Details": "http://malegislature.gov/api/Hearings/3705"
+        },
+        {
+          "EventId": 3812,
+          "Details": "http://malegislature.gov/api/Hearings/3812"
+        },
+        {
+          "EventId": 3871,
+          "Details": "http://malegislature.gov/api/Hearings/3871"
+        },
+        {
+          "EventId": 3914,
+          "Details": "http://malegislature.gov/api/Hearings/3914"
+        },
+        {
+          "EventId": 3966,
+          "Details": "http://malegislature.gov/api/Hearings/3966"
+        },
+        {
+          "EventId": 3991,
+          "Details": "http://malegislature.gov/api/Hearings/3991"
+        },
+        {
+          "EventId": 3998,
+          "Details": "http://malegislature.gov/api/Hearings/3998"
+        },
+        {
+          "EventId": 4025,
+          "Details": "http://malegislature.gov/api/Hearings/4025"
+        },
+        {
+          "EventId": 4034,
+          "Details": "http://malegislature.gov/api/Hearings/4034"
+        },
+        {
+          "EventId": 4064,
+          "Details": "http://malegislature.gov/api/Hearings/4064"
+        },
+        {
+          "EventId": 4111,
+          "Details": "http://malegislature.gov/api/Hearings/4111"
+        }
+      ],
+      "HouseMembers": [
+        {
+          "GeneralCourtNumber": 192,
+          "MemberCode": "SPK1",
+          "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/SPK1"
+        },
+        {
+          "GeneralCourtNumber": 192,
+          "MemberCode": "M_K1",
+          "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/M_K1"
+        },
+        {
+          "GeneralCourtNumber": 192,
+          "MemberCode": "SCO1",
+          "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/SCO1"
+        },
+        {
+          "GeneralCourtNumber": 192,
+          "MemberCode": "BJA1",
+          "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/BJA1"
+        },
+        {
+          "GeneralCourtNumber": 192,
+          "MemberCode": "DAL1",
+          "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/DAL1"
+        },
+        {
+          "GeneralCourtNumber": 192,
+          "MemberCode": "JMM1",
+          "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/JMM1"
+        },
+        {
+          "GeneralCourtNumber": 192,
+          "MemberCode": "KLG1",
+          "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/KLG1"
+        },
+        {
+          "GeneralCourtNumber": 192,
+          "MemberCode": "NAG1",
+          "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/NAG1"
+        },
+        {
+          "GeneralCourtNumber": 192,
+          "MemberCode": "RMH1",
+          "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/RMH1"
+        },
+        {
+          "GeneralCourtNumber": 192,
+          "MemberCode": "S_D1",
+          "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/S_D1"
+        },
+        {
+          "GeneralCourtNumber": 192,
+          "MemberCode": "WSP1",
+          "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/WSP1"
+        }
+      ],
+      "SenateMembers": [
+        {
+          "GeneralCourtNumber": 192,
+          "MemberCode": "BPC0",
+          "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/BPC0"
+        },
+        {
+          "GeneralCourtNumber": 192,
+          "MemberCode": "EDJ0",
+          "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/EDJ0"
+        },
+        {
+          "GeneralCourtNumber": 192,
+          "MemberCode": "MOM0",
+          "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/MOM0"
+        },
+        {
+          "GeneralCourtNumber": 192,
+          "MemberCode": "RCF0",
+          "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/RCF0"
+        },
+        {
+          "GeneralCourtNumber": 192,
+          "MemberCode": "SLM0",
+          "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/SLM0"
+        }
+      ]
+    }
+  ]
 }
