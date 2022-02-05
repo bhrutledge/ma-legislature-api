@@ -59,6 +59,12 @@
       "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/MCD1"
     },
     {
+      "Id": "MAD1",
+      "Name": "Marcos A. Devers",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/MAD1"
+    },
+    {
       "Id": "CAD1",
       "Name": "Carol A. Doherty",
       "Type": 1,
@@ -335,7 +341,7 @@
   "Attachments": [],
   "CommitteeRecommendations": [],
   "Amendments": [],
-  "Updated": "2022-02-04T08:22:13.957730+00:00",
+  "Updated": "2022-02-05T08:22:43.368800+00:00",
   "BeforeCommittee": {
     "CommitteeCode": "J19",
     "FullName": "Joint Committee on the Judiciary",
