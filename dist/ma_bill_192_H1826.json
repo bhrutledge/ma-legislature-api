@@ -155,6 +155,12 @@
       "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/TTN1"
     },
     {
+      "Id": "SCO1",
+      "Name": "Steven C. Owens",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/SCO1"
+    },
+    {
       "Id": "O_R1",
       "Name": "Orlando Ramos",
       "Type": 1,
@@ -233,7 +239,7 @@
   "Attachments": [],
   "CommitteeRecommendations": [],
   "Amendments": [],
-  "Updated": "2022-02-10T08:23:56.669156+00:00",
+  "Updated": "2022-02-11T08:26:06.171364+00:00",
   "BeforeCommittee": {
     "CommitteeCode": "J19",
     "FullName": "Joint Committee on the Judiciary",
