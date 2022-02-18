@@ -304,7 +304,7 @@
     }
   ],
   "Amendments": [],
-  "Updated": "2022-02-17T08:28:42.576999+00:00",
+  "Updated": "2022-02-18T08:23:18.967605+00:00",
   "BeforeCommittee": {},
   "ReportedOut": [
     {
@@ -314,7 +314,11 @@
       "Description": "It shall be the duty of the committee on Transportation to consider all matters concerning the development, operation, regulation and control of all means of transportation in the air, on land or in the water, the imposition of tolls on tunnels or bridges and such other matters as may be referred. ",
       "Branch": "Joint",
       "GeneralCourtNumber": 192,
-      "SenateChairperson": null,
+      "SenateChairperson": {
+        "GeneralCourtNumber": 192,
+        "MemberCode": "BPC0",
+        "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/BPC0"
+      },
       "HouseChairperson": {
         "GeneralCourtNumber": 192,
         "MemberCode": "WMS1",
@@ -442,6 +446,11 @@
         }
       ],
       "SenateMembers": [
+        {
+          "GeneralCourtNumber": 192,
+          "MemberCode": "BPC0",
+          "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/BPC0"
+        },
         {
           "GeneralCourtNumber": 192,
           "MemberCode": "EPL0",

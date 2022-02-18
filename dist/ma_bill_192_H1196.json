@@ -322,7 +322,7 @@
     }
   ],
   "Amendments": [],
-  "Updated": "2022-02-17T08:30:40.296872+00:00",
+  "Updated": "2022-02-18T08:25:05.395321+00:00",
   "BeforeCommittee": {},
   "ReportedOut": [
     {
@@ -334,8 +334,8 @@
       "GeneralCourtNumber": 192,
       "SenateChairperson": {
         "GeneralCourtNumber": 192,
-        "MemberCode": "BPC0",
-        "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/BPC0"
+        "MemberCode": "PRF0",
+        "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/PRF0"
       },
       "HouseChairperson": {
         "GeneralCourtNumber": 192,
@@ -448,11 +448,6 @@
       "SenateMembers": [
         {
           "GeneralCourtNumber": 192,
-          "MemberCode": "BPC0",
-          "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/BPC0"
-        },
-        {
-          "GeneralCourtNumber": 192,
           "MemberCode": "EDJ0",
           "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/EDJ0"
         },
@@ -460,6 +455,11 @@
           "GeneralCourtNumber": 192,
           "MemberCode": "MOM0",
           "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/MOM0"
+        },
+        {
+          "GeneralCourtNumber": 192,
+          "MemberCode": "PRF0",
+          "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/PRF0"
         },
         {
           "GeneralCourtNumber": 192,
