@@ -101,7 +101,7 @@
   "Attachments": [],
   "CommitteeRecommendations": [],
   "Amendments": [],
-  "Updated": "2022-02-18T08:24:40.993580+00:00",
+  "Updated": "2022-02-19T08:27:19.831593+00:00",
   "BeforeCommittee": {
     "CommitteeCode": "J19",
     "FullName": "Joint Committee on the Judiciary",
@@ -242,11 +242,6 @@
         "GeneralCourtNumber": 192,
         "MemberCode": "MSD1",
         "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/MSD1"
-      },
-      {
-        "GeneralCourtNumber": 192,
-        "MemberCode": "SCH1",
-        "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/SCH1"
       },
       {
         "GeneralCourtNumber": 192,
