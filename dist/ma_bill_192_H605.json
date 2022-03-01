@@ -143,6 +143,12 @@
       "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/E_C1"
     },
     {
+      "Id": "JJC0",
+      "Name": "John J. Cronin",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/JJC0"
+    },
+    {
       "Id": "JAC0",
       "Name": "Julian Cyr",
       "Type": 1,
@@ -689,7 +695,7 @@
   "Attachments": [],
   "CommitteeRecommendations": [],
   "Amendments": [],
-  "Updated": "2022-02-28T08:27:12.042029+00:00",
+  "Updated": "2022-03-01T08:34:08.202210+00:00",
   "BeforeCommittee": {
     "CommitteeCode": "J14",
     "FullName": "Joint Committee on Education",
