@@ -262,7 +262,7 @@
     }
   ],
   "Amendments": [],
-  "Updated": "2022-03-15T08:32:31.826572+00:00",
+  "Updated": "2022-03-19T08:27:27.857872+00:00",
   "BeforeCommittee": {
     "CommitteeCode": "J24",
     "FullName": "Joint Committee on Health Care Financing",
@@ -324,6 +324,10 @@
       {
         "EventId": 4220,
         "Details": "http://malegislature.gov/api/Hearings/4220"
+      },
+      {
+        "EventId": 4241,
+        "Details": "http://malegislature.gov/api/Hearings/4241"
       }
     ],
     "HouseMembers": [
