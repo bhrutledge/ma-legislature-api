@@ -101,6 +101,12 @@
       "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/N_H1"
     },
     {
+      "Id": "REH1",
+      "Name": "Russell E. Holmes",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/REH1"
+    },
+    {
       "Id": "V_H1",
       "Name": "Vanna Howard",
       "Type": 1,
@@ -245,7 +251,7 @@
   "Attachments": [],
   "CommitteeRecommendations": [],
   "Amendments": [],
-  "Updated": "2022-03-23T08:28:49.151008+00:00",
+  "Updated": "2022-04-12T08:33:42.643733+00:00",
   "BeforeCommittee": {
     "CommitteeCode": "J19",
     "FullName": "Joint Committee on the Judiciary",
@@ -343,6 +349,10 @@
       {
         "EventId": 4247,
         "Details": "http://malegislature.gov/api/Hearings/4247"
+      },
+      {
+        "EventId": 4260,
+        "Details": "http://malegislature.gov/api/Hearings/4260"
       }
     ],
     "HouseMembers": [

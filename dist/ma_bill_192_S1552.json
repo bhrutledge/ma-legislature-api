@@ -59,6 +59,12 @@
       "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/M_C1"
     },
     {
+      "Id": "JAC0",
+      "Name": "Julian Cyr",
+      "Type": 1,
+      "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/JAC0"
+    },
+    {
       "Id": "SND0",
       "Name": "Sal N. DiDomenico",
       "Type": 1,
@@ -125,7 +131,7 @@
   "Attachments": [],
   "CommitteeRecommendations": [],
   "Amendments": [],
-  "Updated": "2022-03-23T08:29:16.207027+00:00",
+  "Updated": "2022-04-12T08:34:03.643993+00:00",
   "BeforeCommittee": {
     "CommitteeCode": "J22",
     "FullName": "Joint Committee on Public Safety and Homeland Security",
