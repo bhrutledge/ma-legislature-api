@@ -99,9 +99,20 @@
   "LegislationTypeName": "Bill",
   "RollCalls": [],
   "Attachments": [],
-  "CommitteeRecommendations": [],
+  "CommitteeRecommendations": [
+    {
+      "Action": "Study",
+      "FiscalAmounts": [],
+      "Committee": {
+        "CommitteeCode": "J19",
+        "GeneralCourtNumber": 192,
+        "Details": "http://malegislature.gov/api/GeneralCourts/192/Committees/J19"
+      },
+      "Votes": []
+    }
+  ],
   "Amendments": [],
-  "Updated": "2022-04-12T08:33:47.458383+00:00",
+  "Updated": "2022-04-13T08:37:52.961636+00:00",
   "BeforeCommittee": {
     "CommitteeCode": "J19",
     "FullName": "Joint Committee on the Judiciary",
