@@ -232,7 +232,7 @@
     }
   ],
   "Amendments": [],
-  "Updated": "2022-04-25T08:40:00.516460+00:00",
+  "Updated": "2022-07-30T08:33:31.706247+00:00",
   "BeforeCommittee": {},
   "ReportedOut": [
     {
@@ -304,6 +304,10 @@
         {
           "EventId": 4261,
           "Details": "http://malegislature.gov/api/Hearings/4261"
+        },
+        {
+          "EventId": 4328,
+          "Details": "http://malegislature.gov/api/Hearings/4328"
         }
       ],
       "HouseMembers": [

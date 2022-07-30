@@ -64,7 +64,7 @@
     }
   ],
   "Amendments": [],
-  "Updated": "2022-04-25T08:38:35.649912+00:00",
+  "Updated": "2022-07-30T08:32:05.915593+00:00",
   "BeforeCommittee": {},
   "ReportedOut": [
     {
@@ -106,11 +106,6 @@
         },
         {
           "GeneralCourtNumber": 192,
-          "MemberCode": "SPK1",
-          "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/SPK1"
-        },
-        {
-          "GeneralCourtNumber": 192,
           "MemberCode": "O_R1",
           "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/O_R1"
         },
@@ -136,11 +131,6 @@
         },
         {
           "GeneralCourtNumber": 192,
-          "MemberCode": "MDR1",
-          "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/MDR1"
-        },
-        {
-          "GeneralCourtNumber": 192,
           "MemberCode": "MTL1",
           "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/MTL1"
         },
@@ -153,6 +143,11 @@
           "GeneralCourtNumber": 192,
           "MemberCode": "TFB1",
           "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/TFB1"
+        },
+        {
+          "GeneralCourtNumber": 192,
+          "MemberCode": "JRT1",
+          "Details": "http://malegislature.gov/api/GeneralCourts/192/LegislativeMembers/JRT1"
         }
       ],
       "SenateMembers": [

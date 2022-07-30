@@ -729,7 +729,7 @@
       "Details": "http://malegislature.gov/api/GeneralCourts/192/Documents/S2545/Branches/Senate/Amendments/47/"
     }
   ],
-  "Updated": "2022-04-25T08:38:11.561839+00:00",
+  "Updated": "2022-07-30T08:31:41.078221+00:00",
   "BeforeCommittee": {},
   "ReportedOut": [
     {
@@ -761,6 +761,10 @@
         {
           "EventId": 3750,
           "Details": "http://malegislature.gov/api/Hearings/3750"
+        },
+        {
+          "EventId": 4282,
+          "Details": "http://malegislature.gov/api/Hearings/4282"
         }
       ],
       "HouseMembers": [],
